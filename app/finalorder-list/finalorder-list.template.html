@@ -2,24 +2,21 @@
 <div class="container-fluid">
 
   <div class="row">
-    <div class="col-md-2">
+
       <!--Sidebar content-->
-<ul class="finalorders">
-      <p>
+      <h4 style="color:white">
         Search:
         <input ng-model="$ctrl.query" />
-      </p>
-
-      <p>
         Sort by:
         <select ng-model="$ctrl.orderProp">
           <option value="name">Alphabetical</option>
           <option value="-year">Newest</option>
 
         </select>
-      </p>
-</ul>
-    </div>
+
+      </h4>
+
+
     <div class="col-md-10">
       <!--Body content-->
 
@@ -28,13 +25,13 @@
         <li ng-repeat="finalorder in $ctrl.finalorders | filter:$ctrl.query | orderBy:$ctrl.orderProp"
             class="thumbnail finalorder-list-item"style="text-align:justify; max-width:95%; height:auto; max-height:200px; overflow:hidden" >
           <a href="#!/finalorders/{{finalorder.id}}" class="thumb">
-            <i class="material-icons md-48" style="width:auto">library_books</i><br>See Case
+            <i class="material-icons md-48" style="width:auto">library_books</i><br>See Case<br>{{finalorder.id}}
           </a>
-          <a href="#!/finalorders/{{finalorder.id}}">{{finalorder.id}} : {{finalorder.name}}</a>
-          <p style="text-align:justify; max-width:85%; overflow:hidden">{{finalorder.snippet}}</p>
+          <h4 style="text-align:left; max-width:85%; overflow:hidden"><a href="#!/finalorders/{{finalorder.id}}">{{finalorder.name}}</a></h4>
+          <div style="text-align:justify; max-width:85%; overflow:hidden">{{finalorder.snippet}}</div>
         </li>
       </ul>
 
-    </div>
+    </div></center>
   </div>
 </div>

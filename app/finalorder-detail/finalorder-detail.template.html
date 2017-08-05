@@ -20,68 +20,63 @@ function test2() {
 };
 </script>
 <div class = "first-page">
-<h2>{{$ctrl.finalorder.name.petitioner}}, Petitioner</h2>
-<h2>v.</h2>
-<h2>{{$ctrl.finalorder.name.respondent}}, Respondent</h2>
+<h3 style="text-align:left; max-width:85%; overflow:hidden">{{$ctrl.finalorder.name.petitioner}}, Petitioner</h3>
+<h3>v.</h3>
+<h3>{{$ctrl.finalorder.name.respondent}}, Respondent</h3>
 <h3><center>Description:</center></h3>
 <p>{{$ctrl.finalorder.description}}</p>
-
-<ul class="specs">
-  <li>
-    <span id="judge">Judge:</span>
-      <dd>{{$ctrl.finalorder.judge.name}}</dd>
-  </li>
-  <li>
-    <span>Case Type:</span>
-    <dl>
-      <dd>{{$ctrl.finalorder.casetype.type}}</dd>
-
-    </dl>
-  </li>
-  <li>
-    <span>Result:</span>
-      <dd>{{$ctrl.finalorder.result.description}}</dd>
-
-  </li>
-
-  <li>
-    <span>Case Numbers:</span>
-    <dl>
-      <dt>FCHR:</dt>
-      <dd>{{$ctrl.finalorder.case_num.fchr}}</dd>
-      <dt>DOAH:</dt>
-      <dd>{{$ctrl.finalorder.case_num.doah}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Attorneys:</span>
-    <dl>
-      <dt>For Petitioner:</dt>
-      <dd>{{$ctrl.finalorder.attorneys.atty_petitioner}}</dd>
-      <dt>For Respondent:</dt>
-      <dd>{{$ctrl.finalorder.attorneys.atty_respondent}}</dd>
-    </dl>
-  </li>
-
-</ul>
+<center>
+<table style="width:100%; overflow:hidden">
+  <tr>
+    <th id="judge">Judge:</th>
+    <th>Case Type:</th>
+    <th>Result:</th>
+    <th>Case Numbers:</th>
+    <th>Attorneys:</th>
+  </tr>
+  <tr>
+    <td>{{$ctrl.finalorder.judge.name}}</td>
+    <td>{{$ctrl.finalorder.casetype.type}}</td>
+    <td>{{$ctrl.finalorder.result.description}}</td>
+    <td><dt>FCHR:</dt>
+    <dd>{{$ctrl.finalorder.case_num.fchr}}</dd>
+    <dt>DOAH:</dt>
+    <dd>{{$ctrl.finalorder.case_num.doah}}</dd></td>
+    <td><dt>For Petitioner:</dt>
+    <dd>{{$ctrl.finalorder.attorneys.atty_petitioner}}</dd>
+    <dt>For Respondent:</dt>
+    <dd>{{$ctrl.finalorder.attorneys.atty_respondent}}</dd></td>
+  </tr>
+</table>
+</center>
 <h3><center>Opinion:</center></h3>
 <h3><center>{{$ctrl.finalorder.opinion.heading_1}}</center></h3>
+<p>
 {{$ctrl.finalorder.opinion.heading_1_text.join('\n')}}
+</p>
 
 <h3><center>{{$ctrl.finalorder.opinion.heading_2}}</center></h3>
+<p>
 {{$ctrl.finalorder.opinion.heading_2_text.join('\n')}}
-
+</p>
 <h3><center>{{$ctrl.finalorder.opinion.heading_3}}</center></h3>
+<p>
 {{$ctrl.finalorder.opinion.heading_3_text.join('\n')}}
-
+</p>
 <h3><center>{{$ctrl.finalorder.opinion.heading_4}}</center></h3>
+<p>
 {{$ctrl.finalorder.opinion.heading_4_text.join('\n')}}
+</p>
 
 <h3><center>{{$ctrl.finalorder.opinion.heading_5}}</center></h3>
+<p>
 {{$ctrl.finalorder.opinion.heading_5_text.join('\n')}}
+</p>
 
 <h3><center>{{$ctrl.finalorder.opinion.heading_6}}</center></h3>
+<p>
 {{$ctrl.finalorder.opinion.heading_6_text.join('\n')}}
+</p>
 
 <!-- <button onClick='test2()'>Download as PDF</button> -->
 </div>

@@ -2,8 +2,8 @@
   "name": "fchr-final-orders",
   "private": true,
   "version": "0.0.0",
-  "description": "This site is a directory of the Final Orders of the Florida Commission on Human Relations built entirely in AngularJS.",
-  "repository": "https://github.com/samharden/fchr-final-orders.git/",
+  "description": "A tutorial application for AngularJS",
+  "repository": "https://github.com/angular/angular-phonecat",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.7.7",
@@ -15,10 +15,6 @@
     "karma-jasmine": "^0.3.8",
     "protractor": "^4.0.9"
   },
-  "dependencies": {
-    "bower": "^1.5.2",
-    "http-server": "^0.8.4"
-    },
   "scripts": {
     "postinstall": "bower install",
 
@@ -36,8 +32,5 @@
     "protractor": "protractor e2e-tests/protractor.conf.js",
 
     "update-index-async": "node -e \"var fs=require('fs'),indexFile='app/index-async.html',loaderFile='app/bower_components/angular-loader/angular-loader.min.js',loaderText=fs.readFileSync(loaderFile,'utf-8').split(/sourceMappingURL=angular-loader.min.js.map/).join('sourceMappingURL=bower_components/angular-loader/angular-loader.min.js.map'),indexText=fs.readFileSync(indexFile,'utf-8').split(/\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/).join('//@@NG_LOADER_START@@\\n'+loaderText+'    //@@NG_LOADER_END@@');fs.writeFileSync(indexFile,indexText);\""
-  },
-  "engines": {
-    "node": "6.10.1"
   }
 }
