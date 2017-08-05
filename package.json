@@ -5,6 +5,9 @@
   "description": "A tutorial application for AngularJS",
   "repository": "https://github.com/angular/angular-phonecat",
   "license": "MIT",
+  "engines": {
+    "node": "4.6.0"
+  },
   "devDependencies": {
     "bower": "^1.7.7",
     "http-server": "^0.9.0",
