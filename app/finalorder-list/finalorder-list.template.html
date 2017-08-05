@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      <p>
+        Search:
+        <input ng-model="$ctrl.query" />
+      </p>
+
+      <p>
+        Sort by:
+        <select ng-model="$ctrl.orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="-year">Newest</option>
+
+        </select>
+      </p>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="finalorders">
+
+        <li ng-repeat="finalorder in $ctrl.finalorders | filter:$ctrl.query | orderBy:$ctrl.orderProp"
+            class="thumbnail finalorder-list-item">
+          <a href="#!/finalorders/{{finalorder.id}}" class="thumb">
+            <i class="material-icons md-48">library_books</i>
+          </a>
+          <a href="#!/finalorders/{{finalorder.id}}">{{finalorder.id}} : {{finalorder.name}}</a>
+          <p>{{finalorder.snippet}}</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

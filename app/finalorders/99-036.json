@@ -1,0 +1,80 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 99-036",
+        "doah": "Case No. 98-4151"
+    },
+    "judge": {
+        "name":"Daniel Manry"
+    },
+    "casetype": {
+        "type": "Housing Discrimination"
+    },
+
+    "description": "Petitioner Lydia Cortes filed a housing discrimination complaint pursuant to the Fair Housing Act, Sections 760.20 - 760.37, Florida Statutes (1995), alleging that Respondent Concord Management, Ravens Crossing Apartments, committed discriminatory housing practices.",
+
+    "name": {
+        "petitioner": "Lydia Cortes, Pro Se",
+        "respondent": "Concord Management, Ravens Crossing Apartments"
+      },
+    "attorneys": {
+        "atty_petitioner": "Lydia Cortes",
+        "atty_respondent": "Bill McCabe, Esq."
+      },
+
+    "result": {
+        "description": "Dismissed with Prejudice"
+
+    },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": ["Petitioner Lydia Cortes filed a housing discrimination complaint",
+        "pursuant to the Fair Housing Act, Sections 760.20 - 760.37, Florida Statutes",
+        " (1995), alleging that Respondent Concord Management, Ravens Crossing Apartments,",
+        " committed discriminatory housing practices. Petitioner alleged that Respondent",
+        " unlawfully refused to rent Petitioner an apartment and, subsequently, upon renting",
+        " an apartment to Petitioner, unlawfully refused to renew Petitioner's lease",
+        " when it expired. The Petition for Relief and complaint also suggest allegations",
+        " that Respondent was involved in discriminatory harassment of Petitioner.",
+        " The alleged bases of the alleged discriminatory housing practices were ",
+        "Petitioner's national origin (Hispanic) and sex (female). The allegations ",
+        "set forth in the complaint were investigated, and, on June 26, 1998, the ",
+        "Commission issued its determination finding that there was no reasonable ",
+        "cause to believe that a discriminatory housing practice occurred. ",
+        "Petitioner filed a Petition for Relief from a Discriminatory Housing ",
+        "Practice and the case was transmitted to the Division of Administrative ",
+        "Hearings for the conduct of a formal proceeding. An evidentiary hearing ",
+        "was held by video conference on December 1, 1998, before Administrative ",
+        "Law Judge Daniel Manry, sitting in Tallahassee, with the parties, ",
+        "witnesses and court reporter attending in Orlando. Judge Manry issued a ",
+        "Recommended Order of dismissal, dated February 3, 1999. Pursuant to notice, ",
+        "public deliberations were held on December 1, 1999, by means of Communications ",
+        "Media Technology (namely, telephone) before this panel of Commissioners. ",
+        "The public access point for these telephonic deliberations was the Office ",
+        "of the Florida Commission on Human Relations, 325 John Knox Road, ",
+        "Building F, Suite 240, Tallahassee, Florida, 32303-4149. At these ",
+        "deliberations, the Commission panel determined the action to be taken ",
+        "on the Petition for Relief."],
+        "heading_2": "Finding of Fact",
+        "heading_2_text": ["A transcript of the proceeding ",
+        "before the Administrative Law Judge was not filed with the Commission. ",
+        "We adopt the Administrative Law Judge's findings of fact."],
+        "heading_3": "Conclusions of Law",
+        "heading_3_text":["We find the Administrative Law Judge's application of the law to the ",
+        "facts to result in a correct disposition of the matter. We adopt the ",
+        "Administrative Law Judge's conclusions of law."],
+        "heading_4": "Exceptions",
+        "heading_4_text":["Neither party ",
+        "filed exceptions to the Administrative Law Judge's Recommended Order. "],
+        "heading_5": "Dismissal",
+        "heading_5_text":["The Petition for Relief and Housing Discrimination Complaint ",
+        "are DISMISSED with prejudice. The parties have the right to seek judicial ",
+        "review of this Order. The Commission and the appropriate District Court ",
+        "of Appeal must receive notice of appeal within 30 days of the date this ",
+        "Order is filed with the Clerk of the Commission. Explanation of the right ",
+        "to appeal is found in Section 120.68, Florida Statutes, and in the Florida ",
+        "Rules of Appellate Procedure 9.110. Done and Ordered this 23rd day of ",
+        "December, 1999. For The Florida Commission on Human Relations."
+      ]
+    }
+}

@@ -1,0 +1,114 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 99-038",
+        "doah": "Case No. 98-2813"
+    },
+    "judge": {
+        "name":"Donald R. Alexander"
+    },
+    "casetype": {
+        "type": "Unlawful Employment Practice"
+    },
+
+    "description": "Petitioner Jerrylene Barr filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1993), alleging that Respondent Columbia Ocala Regional Medical Center committed an unlawful employment practice on the basis of Petitioner's race (Black) when it terminated her from her position.",
+    "name": {
+        "petitioner": "Jerrylene Barr",
+        "respondent": "Columbia Ocala Regional Medical Center"
+      },
+    "attorneys": {
+        "atty_petitioner": "Jerrylene Barr, Pro Se",
+        "atty_respondent": "Kip P. Roth, Esq."
+      },
+
+    "result": {
+        "description": "Dismissed with Prejudice"
+
+    },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": ["Petitioner Jerrylene Barr filed a complaint of ",
+          "discrimination pursuant to the Florida Civil Rights Act of 1992, ",
+          "Sections 760.01 - 760.11, Florida Statutes (1993), alleging that ",
+          "Respondent Columbia Ocala Regional Medical Center committed an ",
+          "unlawful employment practice on the basis of Petitioner's race ",
+          "(Black) when it terminated her from her position.",
+          "The allegations set forth in the complaint were investigated, and, ",
+          "on April 27, 1998, the Executive Director issued his determination ",
+          "finding that there was no reasonable cause to believe that an unlawful ",
+          "employment practice had occurred. ",
+          "Petitioner filed a Petition for Relief from an Unlawful Employment ",
+          "Practice and the case was transmitted to the Division of Administrative ",
+          "Hearings for the conduct of a formal proceeding. ",
+          "An evidentiary hearing was held in Ocala, Florida, on March 2, 1999, ",
+          "before Administrative Law Judge Donald R. Alexander. ",
+          "Judge Alexander issued a Recommended Order of dismissal, dated April ",
+          "14, 1999. Pursuant to notice, public deliberations were held on ",
+          "December 1, 1999, by means of Communications Media Technology ",
+          "(namely, telephone) before this panel of Commissioners. The public ",
+          "access point for these telephonic deliberations was the Office of the ",
+          "Florida Commission on Human Relations, 325 John Knox Road, Building F, ",
+          "Suite 240, Tallahassee, Florida, 32303-4149. At these deliberations, the ",
+          "Commission panel determined the action to be taken on the Recommended Order."],
+        "heading_2": "Finding of Fact",
+        "heading_2_text": ["We find the Administrative Law Judge's findings of ",
+          "fact to be supported by competent substantial evidence. We adopt the ",
+          "Administrative Law Judge's findings of fact."],
+        "heading_3": "Conclusions of Law",
+        "heading_3_text":["We find the Administrative Law Judge's application of ",
+          "the law to the facts to result in a correct disposition of the matter. ",
+          "We adopt the Administrative Law Judge's conclusions of law."],
+        "heading_4": "Exceptions",
+        "heading_4_text":["Petitioner filed exceptions to the Recommended Order ",
+          "in the form of two documents filed with the Commission at the same ",
+          "time, one a letter to Commission Clerk, Sharon Moultry, dated April ",
+          "27, 1999, and one a document entitled, 'Objection to Respondent' ",
+          "(sic) Recommended Findings of Fact and Conclusions of Law.' The second ",
+          "paragraph of the April 27, 1999, letter to Commission Clerk, Sharon ",
+          "Moultry, excepts to the Administrative Law Judge's consideration of ",
+          "Respondent's proposed recommended order, indicating that the Respondent's ",
+          "proposed recommended order was not timely filed. In a case before the ",
+          "Department of Community Affairs [Department] in which there was filed ",
+          "a Motion to Strike as untimely the proposed recommended order of an ",
+          "intervenor in the case, and in which the intervenor maintained that ",
+          "its proposed recommended order was timely filed by facsimile, ",
+          "the Department of Community Affairs denied the Motion to Strike, ",
+          "stating the following: 'The Motion to Strike should have been directed ",
+          "to the ALJ [Administrative Law Judge], and not the Department. The ",
+          "Department cannot resolve the factual dispute concerning the asserted ",
+          "timely filing of the proposed recommended order by facsimile. Also, ",
+          "[intervenor's] proposed recommended order has already served its purpose ",
+          "of informing the ALJ of the [intervenor's] view of the evidence and ",
+          "the applicable law. The proposed recommended orders do not assist the ",
+          "Department's review of the Recommended Order. The Recommended Order has ",
+          "been reviewed in light of competent substantial evidence in the record, ",
+          "exceptions and responses to exceptions, and the applicable law, not against ",
+          "any of the proposed recommended orders.' Rathkamp, et al. v. Department ",
+          "of Community Affairs, et al., 21 F.A.L.R. 1902, at 1904 (DCA 1998). ",
+          "Employing this same reasoning, we reject this exception. ",
+          "All the remaining exceptions contained in the two documents take issue ",
+          "with the Administrative Law Judge's findings from the evidence ",
+          "presented and inferences drawn therefrom, as well as the credibility ",
+          "of Respondent's witnesses. It is well settled that it is the ",
+          "Administrative Law Judge's function 'to consider all of the evidence ",
+          "presented and reach ultimate conclusions of fact based on competent ",
+          "substantial evidence by resolving conflicts, judging the credibility ",
+          "of witnesses and drawing permissible inferences there from. If the ",
+          "evidence presented supports two inconsistent findings, it is the ",
+          "Administrative Law Judge's role to decide between them.' Beckton v. ",
+          "Department of Children and Family Services, 21 F.A.L.R. 1735, at 1736 ",
+          "(FCHR 1998), citing Maggio v. Martin Marietta Aerospace, 9 F.A.L.R. ",
+          "2168, at 2171 (FCHR 1986). We deny Petitioner's remaining exceptions."],
+        "heading_5": "Dismissal",
+        "heading_5_text":["The Petition for Relief and Complaint of ",
+          "Discrimination are DISMISSED with prejudice. The parties have the ",
+          "right to seek judicial review of this Order. The Commission and the ",
+          "appropriate District Court of Appeal must receive notice of appeal ",
+          "within 30 days of the date this Order is filed with the Clerk of the ",
+          "Commission. Explanation of the right to appeal is found in Section ",
+          "120.68, Florida Statutes, and in the Florida Rules of Appellate ",
+          "Procedure 9.110. Done and Ordered this 23rd day of December, 1999. ",
+          "For The Florida Commission on Human Relations."
+      ]
+    }
+}

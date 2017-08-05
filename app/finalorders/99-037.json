@@ -1,0 +1,73 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 99-037",
+        "doah": "Case No. 99-1782"
+    },
+    "judge": {
+        "name":"Donald R. Alexander"
+    },
+    "casetype": {
+        "type": "Housing Discrimination"
+    },
+
+    "description": "Jeffrey S. Wytrwal filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1997), alleging that Respondent Waste Management of Putnam County committed an unlawful employment practice on the basis of Petitioner's alleged disability (knee problems).",
+    "name": {
+        "petitioner": "Jeffrey S. Wytrwal, Pro Se",
+        "respondent": "Concord Management, Ravens Crossing Apartments"
+      },
+    "attorneys": {
+        "atty_petitioner": "Jeffrey S. Wytrwal",
+        "atty_respondent": "Joseph P. Shelton, Esq."
+      },
+
+    "result": {
+        "description": "Dismissed with Prejudice"
+
+    },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": ["Petitioner Jeffrey S. Wytrwal filed a complaint of",
+          " discrimination pursuant to the Florida Civil Rights Act of 1992, ",
+          "Sections 760.01 - 760.11, Florida Statutes (1997), alleging that ",
+          "Respondent Waste Management of Putnam County committed an unlawful ",
+          "employment practice on the basis of Petitioner's alleged disability ",
+          "(knee problems). Petitioner alleged that Respondent unlawfully failed ",
+          "to provide him a light duty assignment.",
+          "Petitioner requested an administrative hearing, and the case was ",
+          "transmitted to the Division of Administrative Hearings for the ",
+          "conduct of a formal proceeding. An evidentiary hearing was held in ",
+          "Palatka, Florida, on August 5, 1999, before Administrative Law Judge ",
+          "Donald R. Alexander. Judge Alexander issued a Recommended Order of ",
+          "dismissal, dated August 31, 1999. Pursuant to notice, public ",
+          "deliberations were held on December 1, 1999, by means of Communications ",
+          "Media Technology (namely, telephone) before this panel of Commissioners. ",
+          "The public access point for these telephonic deliberations was the ",
+          "Office of the Florida Commission on Human Relations, 325 John Knox Road, ",
+          "Building F, Suite 240, Tallahassee, Florida, 32303-4149. At these ",
+          "deliberations, the Commission panel determined the action to be taken ",
+          "on the Recommended Order."],
+        "heading_2": "Finding of Fact",
+        "heading_2_text": ["A transcript of the proceeding before the ",
+          "Administrative Law Judge was not filed with the Commission. We ",
+          "adopt the Administrative Law Judge's findings of fact."],
+        "heading_3": "Conclusions of Law",
+        "heading_3_text":["We find the Administrative Law Judge's application of ",
+          "the law to the facts to result in a correct disposition of the matter.",
+          "We adopt the Administrative Law Judge's conclusions of law."],
+        "heading_4": "Exceptions",
+        "heading_4_text":["Neither party ",
+        "filed exceptions to the Administrative Law Judge's Recommended Order. "],
+        "heading_5": "Dismissal",
+        "heading_5_text":["The Request for Relief and Complaint of Discrimination ",
+          "are DISMISSED with prejudice. The parties have the right to seek ",
+          "judicial review of this Order. The Commission and the appropriate ",
+          "District Court of Appeal must receive notice of appeal within 30 ",
+          "days of the date this Order is filed with the Clerk of the Commission. ",
+          "Explanation of the right to appeal is found in Section 120.68, Florida ",
+          "Statutes, and in the Florida Rules of Appellate Procedure 9.110.",
+          "Done and Ordered this 23rd day of December, 1999.",
+          "For The Florida Commission on Human Relations."
+      ]
+    }
+}
