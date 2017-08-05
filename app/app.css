@@ -1,5 +1,10 @@
 body {
   padding: 20px;
+background-color: gray;
+}
+
+.first-page {
+  background-color:white;
 }
 
 h1 {
@@ -10,10 +15,13 @@ h1 {
 /* View: Finalorder list */
 .finalorders {
   list-style: none;
+  height:100%;
+  overflow:hidden;
 }
 
 .finalorders li {
   clear: both;
+  background-color: white;
   height: 115px;
   padding-top: 15px;
 }
@@ -21,7 +29,7 @@ h1 {
 .thumb {
   float: left;
   height: 100px;
-  margin: -0.5em 1em 1.5em 0;
+  /*margin: -0.5em 1em 1.5em 0;*/
   padding-bottom: 1em;
   width: 100px;
 }

@@ -1,4 +1,6 @@
+
 <div class="container-fluid">
+
   <div class="row">
     <div class="col-md-2">
       <!--Sidebar content-->
@@ -24,12 +26,12 @@
       <ul class="finalorders">
 
         <li ng-repeat="finalorder in $ctrl.finalorders | filter:$ctrl.query | orderBy:$ctrl.orderProp"
-            class="thumbnail finalorder-list-item">
+            class="thumbnail finalorder-list-item"style="text-align:justify; max-width:95%; height:auto; overflow:hidden" >
           <a href="#!/finalorders/{{finalorder.id}}" class="thumb">
             <i class="material-icons md-48">library_books</i>
           </a>
           <a href="#!/finalorders/{{finalorder.id}}">{{finalorder.id}} : {{finalorder.name}}</a>
-          <p>{{finalorder.snippet}}</p>
+          <p style="text-align:justify; max-width:85%; overflow:hidden">{{finalorder.snippet}}</p>
         </li>
       </ul>
 

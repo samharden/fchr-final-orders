@@ -1,0 +1,63 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 00-003",
+        "doah": "Case No. 96-4160"
+    },
+    "judge": {
+        "name":"Donald R. Alexander"
+    },
+    "casetype": {
+        "type": "DISCRIMINATORY HOUSING PRACTICE"
+    },
+
+    "description": "Petitioner Melanie A. Hils filed a housing discrimination complaint pursuant to the Fair Housing Act, Sections 760.20 - 760.37, Florida Statutes (1995), alleging that Respondent Advantage Property Management, Inc., committed a discriminatory housing practice on the basis of Petitioner's sex (female) by sexually harassing Petitioner.",
+    "name": {
+        "petitioner": "Melanie A. Hils",
+        "respondent": "Advantage Property Management, Inc."
+      },
+    "attorneys": {
+        "atty_petitioner": "Migdalia Figueroa, Esq.",
+        "atty_respondent": "Vernon L. Dean, Esq."
+      },
+
+    "result": {
+        "description": "Dismissed with Prejudice"
+
+    },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": ["Petitioner Melanie A. Hils filed a housing discrimination ",
+          "complaint pursuant to the Fair Housing Act, Sections 760.20 - 760.37, ",
+          "Florida Statutes (1995), alleging that Respondent Advantage Property ",
+          "Management, Inc., committed a discriminatory housing practice on the ",
+          "basis of Petitioner's sex (female) by sexually harassing Petitioner. ",
+          "The allegations set forth in the complaint were investigated, and, ",
+          "on July 16, 1996, the Commission issued its determination finding that ",
+          "there was no reasonable cause to believe that a discriminatory housing ",
+          "practice occurred.",
+          "Petitioner filed a Petition for Relief from a Discriminatory Housing ",
+          "Practice and the case was transmitted to the Division of Administrative ",
+          "Hearings for the conduct of a formal proceeding. ",
+          "An evidentiary hearing was held in Jacksonville, Florida, on March 14, ",
+          "1997, before Administrative Law Judge Donald R. Alexander. Judge ",
+          "Alexander issued a Recommended Order of dismissal, dated May 6, 1997.",
+          "Pursuant to notice, public deliberations were held on January 27, 2000, ",
+          "by means of Communications Media Technology (namely, telephone) before ",
+          "this panel of Commissioners. The public access point for these telephonic ",
+          "deliberations was the Office of the Florida Commission on Human Relations, ",
+          "325 John Knox Road, Building F, Suite 240, Tallahassee, Florida, 32303-4149. ",
+          "At these deliberations, the Commission panel determined the action to be ",
+          "taken on the Petition for Relief."],
+        "heading_2": "Finding of Fact",
+        "heading_2_text": ["We find the Administrative Law Judge's application ",
+          "of the law to the facts to result in a correct disposition of the matter. ",
+          "We adopt the Administrative Law Judge's conclusions of law."],
+        "heading_3": "Conclusions of Law",
+        "heading_3_text":[""],
+        "heading_4": "Exceptions",
+        "heading_4_text":[""],
+        "heading_5": "Dismissal",
+        "heading_5_text":[""]
+    }
+}
