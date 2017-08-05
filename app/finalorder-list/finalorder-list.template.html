@@ -4,7 +4,7 @@
   <div class="row">
     <div class="col-md-2">
       <!--Sidebar content-->
-
+<ul class="finalorders">
       <p>
         Search:
         <input ng-model="$ctrl.query" />
@@ -18,7 +18,7 @@
 
         </select>
       </p>
-
+</ul>
     </div>
     <div class="col-md-10">
       <!--Body content-->
@@ -26,9 +26,9 @@
       <ul class="finalorders">
 
         <li ng-repeat="finalorder in $ctrl.finalorders | filter:$ctrl.query | orderBy:$ctrl.orderProp"
-            class="thumbnail finalorder-list-item"style="text-align:justify; max-width:95%; height:auto; overflow:hidden" >
+            class="thumbnail finalorder-list-item"style="text-align:justify; max-width:95%; height:auto; max-height:200px; overflow:hidden" >
           <a href="#!/finalorders/{{finalorder.id}}" class="thumb">
-            <i class="material-icons md-48">library_books</i>
+            <i class="material-icons md-48" style="width:auto">library_books</i><br>See Case
           </a>
           <a href="#!/finalorders/{{finalorder.id}}">{{finalorder.id}} : {{finalorder.name}}</a>
           <p style="text-align:justify; max-width:85%; overflow:hidden">{{finalorder.snippet}}</p>
