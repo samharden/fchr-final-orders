@@ -15,6 +15,10 @@
     "karma-jasmine": "^0.3.8",
     "protractor": "^4.0.9"
   },
+  "devDependencies": {
+    "bower":"^1.5.2",
+    "http-server":"^0.8.4"
+  },
   "scripts": {
     "postinstall": "bower install",
 
