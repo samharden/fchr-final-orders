@@ -1,0 +1,75 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 00-004",
+        "doah": "Case No. 97-5842"
+    },
+    "judge": {
+        "name":"J. Lawrence Johnston"
+    },
+    "casetype": {
+        "type": "DISCRIMINATORY HOUSING PRACTICE"
+    },
+
+    "description": "Petitioners Abad A. Perez and Luz E. Colon filed a housing discrimination complaint pursuant to the Fair Housing Act, Sections 760.20 - 760.37, Florida Statutes (1995), alleging that Respondents Sunset Homes of Pasco, Inc., and Mr. John Frank, President, committed a discriminatory housing practice on the basis of Petitioners' race (Black) and national origin (Hispanic) by failing to build Petitioners' home to agreed-upon specifications.",
+    "name": {
+        "petitioner": "Abad A. Perez and Luz E. Colon",
+        "respondent": "Sunset Homes of Pasco, Inc and Mr. John Frank, President"
+      },
+    "attorneys": {
+        "atty_petitioner": "H. James Lentz, Esq.",
+        "atty_respondent": "Gerald Figurski, Esq."
+      },
+
+    "result": {
+        "description": "Dismissed with Prejudice"
+
+    },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": ["Petitioners Abad A. Perez and Luz E. Colon filed a ",
+          "housing discrimination complaint pursuant to the Fair Housing Act, ",
+          "Sections 760.20 - 760.37, Florida Statutes (1995), alleging that ",
+          "Respondents Sunset Homes of Pasco, Inc., and Mr. John Frank, ",
+          "President, committed a discriminatory housing practice on the basis ",
+          "of Petitioners' race (Black) and national origin (Hispanic) by ",
+          "failing to build Petitioners' home to agreed-upon specifications. ",
+          "The allegations set forth in the complaint were investigated, and, ",
+          "on August 19, 1997, the Commission issued its determination finding ",
+          "that there was no reasonable cause to believe that a discriminatory ",
+          "housing practice occurred. Petitioners filed a Petition for Relief ",
+          "from a Discriminatory Housing Practice and the case was transmitted ",
+          "to the Division of Administrative Hearings for the conduct of a ",
+          "formal proceeding. Upon consideration of Respondents' Motion in ",
+          "Opposition to First Amended Petition, Administrative Law Judge J. ",
+          "Lawrence Johnston issued a Recommended Order of Dismissal, dated ",
+          "October 16, 1998. Pursuant to notice, public deliberations were held ",
+          "on January 27, 2000, by means of Communications Media Technology ",
+          "(namely, telephone) before this panel of Commissioners. The public ",
+          "access point for these telephonic deliberations was the Office of ",
+          "the Florida Commission on Human Relations, 325 John Knox Road, ",
+          "Building F, Suite 240, Tallahassee, Florida, 32303-4149. At these ",
+          "deliberations, the Commission panel determined the action to be taken ",
+          "on the Petition for Relief."],
+        "heading_2": "Adoption of Recommended Order of Dismissal",
+        "heading_2_text": ["We find the findings of fact contained in the ",
+          "Recommended Order of Dismissal to be supported by competent ",
+          "substantial evidence and the conclusions of law set out in the ",
+          "Recommended Order of Dismissal to result in a correct disposition ",
+          "of the matter. We adopt the Administrative Law Judge's Recommended ",
+          "Order of Dismissal."],
+        "heading_3": "Exceptions",
+        "heading_3_text":["Neither party filed exceptions to the Administrative ",
+          "Law Judge's Recommended Order."],
+        "heading_4": "Dismissal",
+        "heading_4_text":["The Petition for Relief and Housing Discrimination ",
+          "Complaint are DISMISSED with prejudice. The parties have the right ",
+          "to seek judicial review of this Order. The Commission and the ",
+          "appropriate District Court of Appeal must receive notice of appeal ",
+          "within 30 days of the date this Order is filed with the Clerk of the ",
+          "Commission. Explanation of the right to appeal is found in Section ",
+          "120.68, Florida Statutes, and in the Florida Rules of Appellate ",
+          "Procedure 9.110. Done and Ordered this 11th day of February, 2000.",
+          " For The Florida Commission on Human Relations."]
+    }
+}
