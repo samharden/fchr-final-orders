@@ -34,6 +34,7 @@
   },
   "scripts": {
     "postinstall": "npm install bower",
+    "postinstall": "bower install",
 
     "prestart": "npm install",
     "start": "http-server ./app process.env.PORT || 5000",
