@@ -1,0 +1,38 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 00-005",
+        "doah": "Case No. 98-3082"
+    },
+    "judge": {
+        "name":"P. Michael Ruff"
+    },
+    "casetype": {
+        "type": "UNLAWFUL EMPLOYMENT PRACTICE"
+    },
+
+    "description": "Petitioner Roberta McCabe filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Woodland Towers, committed an unlawful employment practice on the basis of Petitioner's age (61) when it terminated Petitioner from her position.",
+    "name": {
+        "petitioner": "Roberta McCabe",
+        "respondent": "Woodland Towers"
+      },
+    "attorneys": {
+        "atty_petitioner": "Roberta McCabe, Pro Se",
+        "atty_respondent": "Tom Leek, Esq."
+      },
+
+    "result": {
+        "description": "Remand to Administrative Law Judge"
+
+    },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": [""],
+        "heading_2": "Adoption of Recommended Order of Dismissal",
+        "heading_2_text": [""],
+        "heading_3": "Exceptions",
+        "heading_3_text":[""],
+        "heading_4": "Remand",
+        "heading_4_text":[""]
+    }
+}

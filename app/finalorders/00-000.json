@@ -1,0 +1,38 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. ",
+        "doah": "Case No. "
+    },
+    "judge": {
+        "name":""
+    },
+    "casetype": {
+        "type": ""
+    },
+
+    "description": "",
+    "name": {
+        "petitioner": "",
+        "respondent": ""
+      },
+    "attorneys": {
+        "atty_petitioner": "",
+        "atty_respondent": ""
+      },
+
+    "result": {
+        "description": ""
+
+    },
+    "opinion": {
+        "heading_1": "",
+        "heading_1_text": [""],
+        "heading_2": "",
+        "heading_2_text": [""],
+        "heading_3": "",
+        "heading_3_text":[""],
+        "heading_4": "",
+        "heading_4_text":[""]
+    }
+}
