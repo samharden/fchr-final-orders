@@ -34,7 +34,7 @@
     "postinstall": "npm install bower",
 
     "prestart": "npm install",
-    "start": "http-server ./app -a localhost -p 8080 -c-1",
+    "start": "http-server ./app process.env.PORT || 5000",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
