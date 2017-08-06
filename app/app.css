@@ -8,6 +8,36 @@ font: 300 20px/1.6 Lato, sans-serif;
 
 }
 
+@media (max-width: 650px) {
+	.finalorder {
+	  padding: .1em 1.5em;
+	  line-height: 85%;
+	  color: #666;
+	  background: #f0f0f3;
+	  margin: .5em .5em .5em .5em;
+	}
+	/*h1 { font-size: 20px !important; }
+	h2 { font-size: 16px !important; }
+	h3 { font-size: 12px !important; }*/
+
+	.alignright {
+		display: none
+	}
+	.size-me {
+		font-size: 12px
+	}
+
+	.too-big {
+		display: none
+	}
+}
+@media (min-width:651px) {
+  .too-small {
+    display: none
+  }
+    )
+}
+
 input {
   line-height: 150%;
   color: #666;
@@ -78,7 +108,7 @@ p {
   margin-bottom: 2em;
   margin-right: 3em;
   padding: 2em;
-  width: 400px;
+  /*width: 400px;*/
 }
 
 .finalorder:first-child {

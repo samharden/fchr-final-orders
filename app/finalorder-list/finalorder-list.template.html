@@ -1,4 +1,8 @@
 
+<center>
+  <h2>Florida Commission on Human Relations<br>Final Orders</h2>
+</center>
+
 <div class="container-fluid">
 
   <div class="row">
@@ -6,7 +10,7 @@
       <!--Sidebar content-->
       <h4 style="">
         Search:
-        <input ng-model="$ctrl.query" />
+        <input ng-model="$ctrl.query" /><br class="too-small"><br class="too-small">
         Sort by:
         <select ng-model="$ctrl.orderProp">
           <option value="name">Alphabetical</option>
@@ -17,18 +21,20 @@
       </h4>
 
 
-    <div class="col-md-10">
+    <!-- <div class="col-md-10"> -->
       <!--Body content-->
 
-      <ul class="finalorders">
+      <!-- <ul class="finalorders"> -->
 
         <li ng-repeat="finalorder in $ctrl.finalorders | filter:$ctrl.query | orderBy:$ctrl.orderProp"
             class="thumbnail finalorder-list-item"style="text-align:justify; max-width:95%; height:auto; max-height:200px; overflow:hidden" >
           <a href="#!/finalorders/{{finalorder.id}}" class="thumb">
-            <i class="material-icons md-48" style="width:auto">library_books</i><br>See Case<br>{{finalorder.id}}
+            <i class="material-icons md-48" style="width:100px">library_books</i><br>See Case<br>{{finalorder.id}}
           </a>
-          <h4 style="text-align:left; max-width:85%; overflow:hidden"><a href="#!/finalorders/{{finalorder.id}}">{{finalorder.name}}</a></h4>
-          <div style="text-align:justify; max-width:85%; overflow:hidden">{{finalorder.snippet}}</div>
+          <h4 class ="too-big" style="text-align:left; max-width:85%; overflow:hidden"><a href="#!/finalorders/{{finalorder.id}}">{{finalorder.name}}</a></h4>
+          <h6 class ="too-big" style="text-align:left; overflow:hidden">Judge: {{finalorder.judge.name}} &nbsp &nbsp FCHR Case No.: {{finalorder.id}} &nbsp &nbsp Year: {{finalorder.year}}</h6>
+          <h6 class ="too-small" style="text-align:left; overflow:hidden"><a href="#!/finalorders/{{finalorder.id}}">{{finalorder.name}}</a></h6>
+          <div class="too-big"style="text-align:justify; max-width:85%; overflow:hidden">{{finalorder.snippet}}</div>
         </li>
       </ul>
 
