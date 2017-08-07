@@ -71,6 +71,33 @@
         },
         "name": "Roberta McCabe, Petitioner, v.Woodland Towers, Respondent",
         "snippet": "Petitioner Roberta McCabe filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Woodland Towers, committed an unlawful employment practice on the basis of Petitioner's age (61) when it terminated Petitioner from her position."
+    },
+    {
+        "year": 2000,
+        "id": "00-006",
+        "judge": {
+            "name":"P. Michael Ruff"
+        },
+        "name": "Ernest C. Curry, Petitioner, v. United Parcel Service of America, Respondent",
+        "snippet": "Petitioner filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent committed an unlawful employment practice on the basis of Petitioner's race (Black), color, handicap and retaliation when it terminated Petitioner from his position as a delivery driver."
+    },
+    {
+        "year": 2000,
+        "id": "00-008",
+        "judge": {
+            "name":"Daniel Manry"
+        },
+        "name": "Brenda L. Oragui, Petitioner, v. Days Inn, Respondent",
+        "snippet": "Petitioner Brenda L. Oragui filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Days Inn, committed an unlawful employment practice on the basis of Petitioner's age (50) when it terminated Petitioner from the position of executive housekeeper."
+    },
+    {
+        "year": 2000,
+        "id": "00-012",
+        "judge": {
+            "name":"Daniel Manry"
+        },
+        "name": "John P. Finn, Petitioner, v. City of Holly Hill, Respondent",
+        "snippet": "Petitioner John P. Finn filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1997), alleging that Respondent City of Holly Hill, committed an unlawful employment practice on the basis of Petitioner's age (57) and retaliation in matters surrounding Petitioner's separation from employment with Respondent."
     }
 
 ]

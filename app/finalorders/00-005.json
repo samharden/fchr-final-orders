@@ -25,6 +25,10 @@
         "description": "Remand to Administrative Law Judge"
 
     },
+    "title": {
+        "description": "ORDER REMANDING REQUEST FOR RELIEF FROM AN UNLAWFUL EMPLOYMENT PRACTICE"
+
+    },
     "opinion": {
         "heading_1": "Preliminary Matters",
         "heading_1_text": ["Petitioner Roberta McCabe filed a complaint of ",
