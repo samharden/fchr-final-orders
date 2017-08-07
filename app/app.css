@@ -49,8 +49,12 @@ body {
 background-color: #e6e9ef;
 }
 
+.rightside {
+  float: right;
+}
+
 .first-page {
-  background-color:white;
+  background-color: #e6e9ef;
 }
 
 h1 {
