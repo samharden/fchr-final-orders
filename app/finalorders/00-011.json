@@ -1,0 +1,58 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 00-011",
+        "doah": "Case No. 00-0406"
+    },
+    "judge": {
+        "name":"Donald R. Alexander"
+    },
+    "casetype": {
+        "type": "UNLAWFUL EMPLOYMENT PRACTICE"
+    },
+
+    "description": "Petitioner Victor L. Major filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1997), alleging that Respondent Branch Properties, Inc., committed an unlawful employment practice on the basis of Petitioner's race (Black) when it terminated Petitioner from his position.",
+    "name": {
+        "petitioner": "Victor L. Major",
+        "respondent": "Branch Properties, Inc."
+      },
+    "attorneys": {
+        "atty_petitioner": "Victor L. Major, Pro Se",
+        "atty_respondent": "Daniel P. O'Gorman, Esq."
+      },
+
+    "result": {
+        "description": "Remand to Administrative Law Judge"
+
+    },
+    "title": {
+        "description": "ORDER REMANDING REQUEST FOR RELIEF FROM AN UNLAWFUL EMPLOYMENT PRACTICE"
+
+    },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": ["Petitioner Victor L. Major filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1997), alleging that Respondent Branch Properties, Inc., committed an unlawful employment practice on the basis of Petitioner's race (Black) when it terminated Petitioner from his position. Petitioner requested an administrative hearing and the Commission transmitted the case to the Division of Administrative Hearings for the conduct of a formal proceeding. Prior to the conduct of a formal proceeding, Administrative Law Judge Donald R. Alexander issued a Recommended Order of Dismissal, dated March 8, 2000. Pursuant to notice, public deliberations were held on August 1, 2000, by means of Communications Media Technology (namely, telephone) before this panel of Commissioners. The public access point for these telephonic deliberations was the Office of the Florida Commission on Human Relations, 325 John Knox Road, Building F, Suite 240, Tallahassee, Florida, 32303-4149. At these deliberations, the Commission panel determined the action to be taken on the Recommended Order of Dismissal."],
+        "heading_2": "Conclusions of Law",
+        "heading_2_text": ["The Administrative Law Judge found that Petitioner filed a charge of discrimination on November 26, 1997, that the Commission did not complete its investigation, and that Petitioner filed a request for an administrative hearing on November 14, 1999. Recommended Order of Dismissal, pages 1 and 2. The Administrative Law Judge concluded that Petitioner had 35 days from the completion of the initial 180-day period following the filing of the complaint in which to file a request for administrative hearing, and that since Petitioner's request for administrative hearing was filed more than a year following the expiration of this combined time period, it should be dismissed as untimely. Recommended Order of Dismissal, page 4. We conclude that the Administrative Law Judge's conclusion that Petitioner's request for administrative hearing is untimely is an error of law, and as ordered, infra, that the case should be remanded to the Administrative Law Judge for further proceedings.The Florida Civil Rights Act of 1992 (Act) states, 'In the event that the commission fails to conciliate or determine whether there is reasonable cause on any complaint under this section within 180 days of the filing of the complaint, an aggrieved person may proceed under subsection (4), as if the commission determined that there was reasonable cause.' Section 760.11(8), Florida Statutes (1999). The referred to subsection (4) states, 'In the event that the commission determines that there is reasonable cause to believe that a discriminatory practice has occurred in violation of the Florida Civil Rights Act of 1992, the aggrieved person may either: (a) Bring a civil action against the person named in the complaint in any court of competent jurisdiction; or (b) Request an administrative hearing under ss. 120.569 and 120.57.' Section 760.11(4), Florida Statutes (1999). With regard to civil suits, the Act states, 'A civil action brought under this section shall be commenced no later than 1 year after the date of determination of reasonable cause by the commission.' Section 760.11(5) Florida Statutes (1999). With regard to administrative proceedings, the Act states, 'An administrative hearing pursuant to (4)(b) must be requested no later than 35 days after the date of determination of reasonable cause by the commission.' Section 760.11(6), Florida Statutes (1999). In interpreting these statute sections a Commission panel stated, '...we conclude that the plain meaning of the cited statutory provisions is that a complainant may request an administrative hearing at any time after the conclusion of the initial 180-day period following the filing of the complaint and no later than 35 days after the date of a determination by the Commission (or simply no later than 35 days after the date of determination, if the Commission's investigation is completed within 180 days of the filing of the complaint).' Wilson v. Scotty's, Inc., FCHR Order No. 98-032 (FCHR 1998). Based on the foregoing, and since no determination has been issued in the instant case, we conclude that Petitioner's request for administrative hearing is timely and, as indicated, above, that the Administrative Law Judge committed an error of law in concluding that the request for administrative hearing is untimely. Finally, we find: (1) that the Administrative Law Judge's conclusion of law we are correcting is within the substantive jurisdiction of the Florida Commission on Human Relations, namely the interpretation of the time period for filing a request for administrative relief under the Florida Civil Rights Act of 1992; (2) the reason the correction is being made is that the conclusion of law as stated by the Administrative Law Judge runs contrary to previous Commission decisions on the issue; and (3) that in making this correction the conclusion of law we are substituting is as or more reasonable than the conclusion which has been rejected. See, Section 120.57(1)(l), Florida Statutes (1999)."],
+        "heading_3": "Remand",
+        "heading_3_text":["The Request for Administrative Hearing and Complaint of Discrimination are hereby REMANDED to the Administrative Law Judge for further proceedings consistent with this Order."],
+        "heading_4": "",
+        "heading_4_text":[""],
+        "heading_5": "",
+        "heading_5_text":[""],
+        "heading_6": "",
+        "heading_6_text":[""],
+        "heading_7": "",
+        "heading_7_text":[""],
+        "heading_8": "",
+        "heading_8_text":[""],
+        "heading_9": "",
+        "heading_9_text":[""],
+        "heading_10": "",
+        "heading_10_text":[""],
+        "heading_11": "",
+        "heading_11_text":[""],
+        "heading_12": "",
+        "heading_12_text":[""]
+    }
+}
