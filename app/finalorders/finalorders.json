@@ -92,6 +92,15 @@
     },
     {
         "year": 2000,
+        "id": "00-011",
+        "judge": {
+            "name":"Donald R. Alexander"
+        },
+        "name": "Victor L. Major, Petitioner, v. Branch Properties, Inc., Respondent",
+        "snippet": "Petitioner Victor L. Major filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1997), alleging that Respondent Branch Properties, Inc., committed an unlawful employment practice on the basis of Petitioner's race (Black) when it terminated Petitioner from his position."
+    },
+    {
+        "year": 2000,
         "id": "00-012",
         "judge": {
             "name":"Daniel Manry"
@@ -101,12 +110,39 @@
     },
     {
         "year": 2000,
-        "id": "00-011",
+        "id": "00-013",
+        "judge": {
+            "name":"Ella Jane P. Davis"
+        },
+        "name": "Marvin Young, Petitioner, v. Bruno's, Inc., Respondent",
+        "snippet": "Petitioner Marvin Young filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Bruno's, Inc., committed an unlawful employment practice on the basis of Petitioner's handicap (epilepsy) when it terminated him from his position."
+    },
+    {
+        "year": 2000,
+        "id": "00-020",
+        "judge": {
+            "name":"Suzanne F. Hood"
+        },
+        "name": "William Beyers, Petitioner, v. Aero Corporation, d/b/a Timco-Lake City, Respondent",
+        "snippet": "Petitioner  William Beyers filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Aero Corporation, d/b/a Timco-Lake City committed an unlawful employment practice on the basis of Petitioner's age in its involvement in Petitioner's unsuccessful attempt to be hired by Allen Aircraft Radio Corporation."
+    },
+    {
+        "year": 2000,
+        "id": "00-021",
+        "judge": {
+            "name":"Errol H. Powell"
+        },
+        "name": "E. Prentice, Petitioner, v. North American Realty Corp., d/b/a North American Acquisition Corp., Respondent",
+        "snippet": "Petitioner E. Prentice filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1993), alleging that Respondent North American Realty Corp., d/b/a North American Acquisition Corp., committed an unlawful employment practice on the basis of Petitioner's sex (pregnancy-based discrimination) and marital status when it terminated Petitioner from employment on September 2, 1993."
+    },
+    {
+        "year": 2000,
+        "id": "00-022",
         "judge": {
             "name":"Donald R. Alexander"
         },
-        "name": "Victor L. Major, Petitioner, v. Branch Properties, Inc., Respondent",
-        "snippet": "Petitioner Victor L. Major filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1997), alleging that Respondent Branch Properties, Inc., committed an unlawful employment practice on the basis of Petitioner's race (Black) when it terminated Petitioner from his position."
+        "name": "Sandra F. Jackson, Petitioner, v. Halifax Medical Center, Respondent",
+        "snippet": "Petitioner Sandra F. Jackson filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Halifax Medical Center committed an unlawful employment practice on the basis of Petitioner's race (Black) by harassing and eventually terminating Petitioner."
     }
 
 ]

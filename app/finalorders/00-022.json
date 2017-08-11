@@ -1,0 +1,58 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 00-022",
+        "doah": "Case No. 00-1781"
+    },
+    "judge": {
+        "name":"Donald R. Alexander"
+    },
+    "casetype": {
+        "type": "UNLAWFUL EMPLOYMENT PRACTICE"
+    },
+
+    "description": "Petitioner Sandra F. Jackson filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Halifax Medical Center committed an unlawful employment practice on the basis of Petitioner's race (Black) by harassing and eventually terminating Petitioner.",
+    "name": {
+        "petitioner": "Sandra F. Jackson",
+        "respondent": "Halifax Medical Center"
+      },
+    "attorneys": {
+        "atty_petitioner": "Sandra F. Jackson, Pro Se",
+        "atty_respondent": "William E. Sizemore, Esq."
+      },
+
+    "result": {
+        "description": "Remanded to Administrative Law Judge"
+
+    },
+    "title": {
+        "description": "ORDER REMANDING REQUEST FOR RELIEF FROM AN UNLAWFUL EMPLOYMENT PRACTICE"
+
+    },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": ["Petitioner Sandra F. Jackson filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Halifax Medical Center committed an unlawful employment practice on the basis of Petitioner's race (Black) by harassing and eventually terminating Petitioner. Petitioner requested an administrative hearing and the Commission transmitted the case to the Division of Administrative Hearings for the conduct of a formal proceeding. Prior to the conduct of a formal proceeding, Administrative Law Judge Donald R. Alexander issued a Recommended Order of Dismissal, dated June 14, 2000. Pursuant to notice, public deliberations were held on October 26, 2000, by means of Communications Media Technology (namely, telephone) before this panel of Commissioners. The public access point for these telephonic deliberations was the Office of the Florida Commission on Human Relations, 325 John Knox Road, Building F, Suite 240, Tallahassee, Florida, 32303-4149. At these deliberations, the Commission panel determined the action to be taken on the Recommended Order of Dismissal. "],
+        "heading_2": "Conclusions of Law",
+        "heading_2_text": ["The Administrative Law Judge found that Petitioner filed a Charge of Discrimination on February 26, 1998, alleging that she had been discriminated against on the basis of her race and alleging that the most recent or continuing discrimination took place on April 8, 1996, almost two years earlier. The Administrative Law Judge recommended dismissal of the complaint/charge of discrimination because it was filed more than 365 days after the alleged discriminatory act. See Recommended Order of Dismissal. The Florida Civil Rights Act of 1992 states, 'Any person aggrieved by a violation of [the Act] may file a complaint with the commission within 365 days of the alleged violation...' Section 760.11(1), Florida Statutes (1999). We note that, while the Charge of Discrimination transmitted to the Division of Administrative Hearings in this case does reflect that Petitioner signed the complaint on February 26, 1998 (indicating a date of discrimination of April 8, 1996), the documents used to transmit the case from the Commission to the Division of Administrative Hearings reflect a different date for the filing. The initial transmittal memo reflects that the Charge of Discrimination was filed with the Commission on April 24, 1996, and an amended transmittal memo reflects that the Charge of Discrimination was filed with the Commission on April 14, 1996, both within 365 days of the alleged discriminatory act. See Filings. This matter was before the Administrative Law Judge on Respondent's Motion to Dismiss, and the Administrative Law Judge found, 'In its motion, Respondent points out that the Commission had earlier taken the position that the charging document was filed in a timely manner, but no papers have been filed by Petitioner or the Commission to support this view.' See Recommended Order of Dismissal. Based on the contents of the initial and amended transmittal memos referenced above, we find that the Administrative Law Judge's finding that neither the Petitioner nor the Commission filed papers to support a finding that the complaint was timely filed is not supported by competent substantial evidence, and find that the record reflects that the complaint in this matter was timely filed."],
+        "heading_3": "Exceptions",
+        "heading_3_text":["Neither party filed exceptions to the Administrative Law Judge's Recommended Order of Dismissal."],
+        "heading_4": "Remand",
+        "heading_4_text":["The Request for Administrative Hearing and Complaint of Discrimination are hereby REMANDED to the Administrative Law Judge for further proceedings consistent with this Order."],
+        "heading_5": "",
+        "heading_5_text":[""],
+        "heading_6": "",
+        "heading_6_text":[""],
+        "heading_7": "",
+        "heading_7_text":[""],
+        "heading_8": "",
+        "heading_8_text":[""],
+        "heading_9": "",
+        "heading_9_text":[""],
+        "heading_10": "",
+        "heading_10_text":[""],
+        "heading_11": "",
+        "heading_11_text":[""],
+        "heading_12": "",
+        "heading_12_text":[""]
+    }
+}

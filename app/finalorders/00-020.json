@@ -1,0 +1,59 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 00-020",
+        "doah": "Case No. 99-5112"
+    },
+    "judge": {
+        "name":"Suzanne F. Hood"
+    },
+    "casetype": {
+        "type": "UNLAWFUL EMPLOYMENT PRACTICE"
+    },
+
+    "description": "Petitioner William Beyers filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Aero Corporation, d/b/a Timco-Lake City committed an unlawful employment practice on the basis of Petitioner's age in its involvement in Petitioner's unsuccessful attempt to be hired by Allen Aircraft Radio Corporation.",
+    "name": {
+        "petitioner": "William Beyers",
+        "respondent": "Aero Corporation, d/b/a Timco-Lake City"
+      },
+    "attorneys": {
+        "atty_petitioner": "William Beyers, Pro Se",
+        "atty_respondent": "Harley H. Jones, Esq."
+      },
+
+    "result": {
+        "description": "Dismissed With Prejudice"
+
+    },
+    "title": {
+        "description": "FINAL ORDER DISMISSING PETITION FOR RELIEF FROM AN UNLAWFUL"
+
+    },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": ["Petitioner William Beyers filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Aero Corporation, d/b/a Timco-Lake City committed an unlawful employment practice on the basis of Petitioner's age in its involvement in Petitioner's unsuccessful attempt to be hired by Allen Aircraft Radio Corporation. The allegations set forth in the complaint were investigated, and, on October 29, 1999, the Executive Director issued his determination finding that there was no reasonable cause to believe that an unlawful employment practice had occurred. Petitioner filed a Petition for Relief from an Unlawful Employment Practice, and the case was transmitted to the Division of Administrative Hearings for the conduct of a formal proceeding. An evidentiary hearing was held using video sites in Tallahassee, Florida, and Pensacola, Florida, on April 21, 2000, before Administrative Law Judge Suzanne F. Hood. Judge Hood issued a Recommended Order of dismissal, dated May 26, 2000. Pursuant to notice, public deliberations were held on October 26, 2000, by means of Communications Media Technology (namely, telephone) before this panel of Commissioners. The public access point for these telephonic deliberations was the Office of the Florida Commission on Human Relations, 325 John Knox Road, Building F, Suite 240, Tallahassee, Florida, 32303-4149. At these deliberations, the Commission panel determined the action to be taken on the Petition for Relief."],
+        "heading_2": "Finding of Fact",
+        "heading_2_text": ["We find the Administrative Law Judge's findings of fact to be supported by competent substantial evidence. We adopt the Administrative Law Judge's findings of fact."],
+        "heading_3": "Conclusions of Law",
+        "heading_3_text":["We find the Administrative Law Judge's application of the law to the facts to result in a correct disposition of the matter. We note that the Administrative Law Judge found that the complaint in this matter was filed on February 7, 1997, that the Commission issued its determination of 'no cause' on October 29, 1999, and that the request for administrative hearing was made on November 30, 1999, 32 days after the issuance of the determination. Recommended Order, 20. The Administrative Law Judge implies that this filing, i.e. the filing of the request for administrative hearing, was not timely, but that the Commission may have lulled the Petitioner into inaction thereby excusing the late filing. See, Recommended Order, 23. A Commission panel interpreting the statutory provisions related to the time for filing a request for administrative hearing has stated, '...a complainant may request an administrative hearing at any time after the conclusion of the initial 180-day period following the filing of the complaint and no later than 35 days after the date of a determination by the Commission (or simply no later than 35 days after the date of determination, if the Commission's investigation is completed within 180 days of the filing of the complaint).' Wilson v. Scotty's, Inc., FCHR Order No. 98-032 (FCHR 1998). Since the Administrative Law Judge found that Petitioner filed his Petition for Relief within 35 days of the issuance of the determination by the Commission, we clarify the Administrative Law Judge's conclusions of law to reflect that the Petition for Relief was timely filed. In making this modification to the conclusions of law, we note that the conclusion of law being modified is one over which the Commission has substantive jurisdiction, namely the interpretation of the time period for filing a request for administrative relief under the Florida Civil Rights Act of 1992, that the correction being made by the Commission is as or more reasonable than the conclusion being corrected, and that the reason for the modification is an interpretation of the Florida Civil Rights Act of 1992 by the Administrative Law Judge that runs contrary to previous Commission action. See, Section 120.57(1)(l), Florida Statutes (1999). With this modification/clarification, we adopt the Administrative Law Judge's conclusions of law."],
+        "heading_4": "Exceptions",
+        "heading_4_text":["Respondent
+        filed one numbered exception to the Recommended Order, in a document entitled, 'Respondent's Exception to the Recommended Order from Division of Administrative Hearings,' in which it excepts to the Administrative Law Judge's finding that Respondent's Motion to Dismiss be denied. See Pleading. The exception argues that the Commission's 180 day period to investigate the charge expired on August 6, 1997, and that Petitioner had until September 10, 1997 (35 days) to request an administrative hearing. Id. The filing further argues that since the Petition for Relief was not filed until November 30, 1999, it was filed 810 days after the expiration of the period in which it could be timely filed. Id. For reasons discussed in the 'Conclusions of Law' section of this Order, we reject Respondent's exception."],
+        "heading_5": "Dismissal",
+        "heading_5_text":["The Petition for Relief and Complaint of Discrimination are DISMISSED with prejudice. The parties have the right to seek judicial review of this Order. The Commission and the appropriate District Court of Appeal must receive notice of appeal within 30 days of the date this Order is filed with the Clerk of the Commission. Explanation of the right to appeal is found in Section 120.68, Florida Statutes, and in the Florida Rules of Appellate Procedure 9.110."],
+        "heading_6": "",
+        "heading_6_text":[""],
+        "heading_7": "",
+        "heading_7_text":[""],
+        "heading_8": "",
+        "heading_8_text":[""],
+        "heading_9": "",
+        "heading_9_text":[""],
+        "heading_10": "",
+        "heading_10_text":[""],
+        "heading_11": "",
+        "heading_11_text":[""],
+        "heading_12": "",
+        "heading_12_text":[""]
+    }
+}

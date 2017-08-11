@@ -32,47 +32,47 @@ agent.addListener('next', function (error, agent) {
       finalorder.name = body.find('h2').text().trim();
       finalorder.description = body.find('.description').text().trim();
       finalorder.judge = c1.find('table:nth-child(1) th:contains("Availability")+td').text().trim().split(/\s*\n\s*/),
-      finalorder.casetype = {
-        type: c1.find('table:nth-child(2) th:contains("Type")+td').text(),
-        talkTime:  c1.find('table:nth-child(2) th:contains("Talk time")+td').text(),
-        standbyTime:  c1.find('table:nth-child(2) th:contains("Standby time")+td').text()
-      };
-      finalorder.result = {
-        ram: c1.find('table:nth-child(3) th:contains("RAM")+td').text(),
-        flash: c1.find('table:nth-child(3) th:contains("Internal result")+td').text()
-      };
-      finalorder.connectivity = {
-        cell:  c1.find('table:nth-child(4) th:contains("Network support")+td').text(),
-        wifi:  c1.find('table:nth-child(4) th:contains("WiFi")+td').text(),
-        bluetooth:  c1.find('table:nth-child(4) th:contains("Bluetooth")+td').text(),
-        infrared:  boolean(c1.find('table:nth-child(4) th:contains("Infrared")+td img').attr('src')),
-        gps:  boolean(c1.find('table:nth-child(4) th:contains("GPS")+td img').attr('src'))
-      };
-      finalorder.android = {
-        os: c2.find('table:nth-child(1) th:contains("OS Version")+td').text(),
-        ui: c2.find('table:nth-child(1) th:contains("UI")+td').text()
-      };
-      finalorder.sizeAndWeight = {
-        dimensions: c2.find('table:nth-child(2) th:contains("Dimensions")+td').text().trim().split(/\s*\n\s*/),
-        weight: c2.find('table:nth-child(2) th:contains("Weight")+td').text().trim()
-      };
-      finalorder.display = {
-        screenSize:  c2.find('table:nth-child(3) th:contains("Screen size")+td').text(),
-        screenResolution:  c2.find('table:nth-child(3) th:contains("Screen resolution")+td').text(),
-        touchScreen:  boolean(c2.find('table:nth-child(3) th:contains("Touch screen")+td img').attr('src'))
-      };
-      finalorder.hardware = {
-        fmRadio:  boolean(c2.find('table:nth-child(4) th:contains("FM Radio")+td img').attr('src')),
-        physicalKeyboard: c2.find('table:nth-child(4) th:contains("Physical keyboard")+td img').attr('src'),
-        accelerometer: boolean(c2.find('table:nth-child(4) th:contains("Accelerometer")+td img').attr('src')),
-        cpu: c2.find('table:nth-child(4) th:contains("CPU")+td').text(),
-        usb: c2.find('table:nth-child(4) th:contains("USB")+td').text(),
-        audioJack: c2.find('table:nth-child(4) th:contains("Audio / headfinalorder jack")+td').text()
-      };
-      finalorder.camera= {
-        primary: c2.find('table:nth-child(5) th:contains("Primary")+td').text(),
-        features: c2.find('table:nth-child(5) th:contains("Features")+td').text().trim().split(/\s*\n\s*/)
-      };
+      // finalorder.casetype = {
+      //   type: c1.find('table:nth-child(2) th:contains("Type")+td').text(),
+      //   talkTime:  c1.find('table:nth-child(2) th:contains("Talk time")+td').text(),
+      //   standbyTime:  c1.find('table:nth-child(2) th:contains("Standby time")+td').text()
+      // };
+      // finalorder.result = {
+      //   ram: c1.find('table:nth-child(3) th:contains("RAM")+td').text(),
+      //   flash: c1.find('table:nth-child(3) th:contains("Internal result")+td').text()
+      // };
+      // finalorder.connectivity = {
+      //   cell:  c1.find('table:nth-child(4) th:contains("Network support")+td').text(),
+      //   wifi:  c1.find('table:nth-child(4) th:contains("WiFi")+td').text(),
+      //   bluetooth:  c1.find('table:nth-child(4) th:contains("Bluetooth")+td').text(),
+      //   infrared:  boolean(c1.find('table:nth-child(4) th:contains("Infrared")+td img').attr('src')),
+      //   gps:  boolean(c1.find('table:nth-child(4) th:contains("GPS")+td img').attr('src'))
+      // };
+      // finalorder.android = {
+      //   os: c2.find('table:nth-child(1) th:contains("OS Version")+td').text(),
+      //   ui: c2.find('table:nth-child(1) th:contains("UI")+td').text()
+      // };
+      // finalorder.sizeAndWeight = {
+      //   dimensions: c2.find('table:nth-child(2) th:contains("Dimensions")+td').text().trim().split(/\s*\n\s*/),
+      //   weight: c2.find('table:nth-child(2) th:contains("Weight")+td').text().trim()
+      // };
+      // finalorder.display = {
+      //   screenSize:  c2.find('table:nth-child(3) th:contains("Screen size")+td').text(),
+      //   screenResolution:  c2.find('table:nth-child(3) th:contains("Screen resolution")+td').text(),
+      //   touchScreen:  boolean(c2.find('table:nth-child(3) th:contains("Touch screen")+td img').attr('src'))
+      // };
+      // finalorder.hardware = {
+      //   fmRadio:  boolean(c2.find('table:nth-child(4) th:contains("FM Radio")+td img').attr('src')),
+      //   physicalKeyboard: c2.find('table:nth-child(4) th:contains("Physical keyboard")+td img').attr('src'),
+      //   accelerometer: boolean(c2.find('table:nth-child(4) th:contains("Accelerometer")+td img').attr('src')),
+      //   cpu: c2.find('table:nth-child(4) th:contains("CPU")+td').text(),
+      //   usb: c2.find('table:nth-child(4) th:contains("USB")+td').text(),
+      //   audioJack: c2.find('table:nth-child(4) th:contains("Audio / headfinalorder jack")+td').text()
+      // };
+      // finalorder.camera= {
+      //   primary: c2.find('table:nth-child(5) th:contains("Primary")+td').text(),
+      //   features: c2.find('table:nth-child(5) th:contains("Features")+td').text().trim().split(/\s*\n\s*/)
+      // };
       finalorder.additionalFeatures = c2.find('table:nth-child(6) td').text();
       finalorder.images = [];
       body.find('#thumbs img').each(function(){
