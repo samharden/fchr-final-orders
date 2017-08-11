@@ -7,7 +7,7 @@ function test2() {
 
 
   var value = document.getElementById("judge").value.text;
-
+  console.log(value)
 
   // var table = document.getElementById('results');
   // for (var i = 0, row; row = table.rows[i]; i++) {
@@ -21,13 +21,23 @@ function test2() {
 </script>
 
 <div class = "first-page" style="background-color:#e6e9ef">
-<h3 style="text-align:left; max-width:85%; overflow:hidden">{{$ctrl.finalorder.name.petitioner}}, Petitioner <a href="#!/finalorders" class="rightside">Back</a></h3>
-<h3>v.</h3>
-<h3>{{$ctrl.finalorder.name.respondent}}, Respondent</h3>
+   <h3><a href="#!/finalorders"><i class="material-icons">keyboard_backspace</i>Back</a></h3>
+
+   <div class="tab">
+     <div class="accordion no-print" style="text-align:center">
+      <h4 class="too-small"> {{$ctrl.finalorder.name.petitioner}}, Petitioner <br>v.<br> {{$ctrl.finalorder.name.respondent}}, Respondent</h4>
+    <h3 class="too-big"> {{$ctrl.finalorder.name.petitioner}}, Petitioner <br>v.<br> {{$ctrl.finalorder.name.respondent}}, Respondent</h3>
+  </div>
+   </div>
+
+
+<h3 style="text-align:left; max-width:85%; overflow:hidden"></h3>
+
+
 <h3><center>Description:</center></h3>
 <p>{{$ctrl.finalorder.description}}</p>
 <center>
-<table style="width:100%; overflow:hidden">
+<table style="width:100%; overflow:hidden" class="too-big">
   <tr>
     <th id="judge">Judge:</th>
     <th>Case Type:</th>

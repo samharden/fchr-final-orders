@@ -28,24 +28,7 @@
     <script src="finalorder-detail/finalorder-detail.component.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
 
-    <script type="test/javascript">
-    function test2() {
-      console.log("Test 2")
-      var doc = new jsPDF()
-
-      var e = document.getElementById('menu_here');
-      var value = e.options[e.selectedIndex].value;
-
-      // var table = document.getElementById('results');
-      // for (var i = 0, row; row = table.rows[i]; i++) {
-      // var checkedValue = document.querySelector('.messageCheckbox:checked').value;
-      // console.log(checkedValue);
-      // }
-      doc.text(value, 10, 10)
-      doc.save('a4.pdf')
-
-    };
-    </script>
+  
   </head>
   <body>
 

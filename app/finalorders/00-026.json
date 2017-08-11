@@ -1,0 +1,58 @@
+{
+
+  "case_num": {
+      "fchr": "Order No. 00-026",
+      "doah": "Case No. 99-4040"
+  },
+  "judge": {
+      "name":"Donald R. Alexander"
+  },
+  "casetype": {
+      "type": "UNLAWFUL EMPLOYMENT PRACTICE"
+  },
+
+  "description": "Petitioner Ausbon Brown, Jr., filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes(1997), alleging that Respondent Agency for Health Care Administration committed an unlawful employment practice on the basis of Petitioner's age (born on April 25, 1943), sex (male) and race (Black) when it failed to hire him for several positions for which he had applied.",
+  "name": {
+      "petitioner": "Ausbon Brown",
+      "respondent": "Agency For Health Care Administration"
+    },
+  "attorneys": {
+      "atty_petitioner": "Ausbon Brown, Pro Se",
+      "atty_respondent": "Kevin E. Hyde, Esq."
+    },
+
+  "result": {
+      "description": "Request for Relief from Unlawful Employment Practice Dismissed"
+
+  },
+  "title": {
+      "description": "FINAL ORDER DISMISSING REQUEST FOR RELIEF FROM AN UNLAWFUL EMPLOYMENT PRACTICE"
+
+  },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": ["Petitioner Ausbon Brown, Jr., filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1997), alleging that Respondent Department of Children and Family Services committed an unlawful employment practice on the basis of Petitioner's age (born April 25, 1943), sex (male), and race (Black) when it failed to hire him for several positions for which he had applied. The allegations set forth in the complaint were investigated, and, on August 18, 1999, the Executive Director issued his determination finding that there was no reasonable cause to believe that an unlawful employment practice had occurred. Petitioner filed a Petition for Relief from an Unlawful Employment Practice, and the case was transmitted to the Division of Administrative Hearings for the conduct of a formal proceeding. An evidentiary hearing was held in Daytona Beach, Florida, on February 24, 2000, before Administrative Law Judge Donald R. Alexander. Judge Alexander issued a Recommended Order of dismissal on April 13, 2000. Pursuant to notice, public deliberations were held on December 7, 2000, by means of Communications Media Technology (namely, telephone) before this panel of Commissioners. The public access point for these telephonic deliberations was the Office of the Florida Commission on Human Relations, 325 John Knox Road, Building F, Suite 240, Tallahassee, Florida, 32303-4149. At these deliberations, the Commission panel determined the action to be taken on the Petition for Relief."],
+        "heading_2": "Finding of Fact",
+        "heading_2_text": ["We find the Administrative Law Judge's findings of fact to be supported by competent substantial evidence. We adopt the Administrative Law Judge's findings of fact."],
+        "heading_3": "Conclusions of Law",
+        "heading_3_text":["We find the Administrative Law Judge's application of the law to the facts to result in a correct disposition of the matter. We adopt the Administrative Law Judge's conclusions of law."],
+        "heading_4": "Exceptions",
+        "heading_4_text":["Petitioner filed ten numbered exceptions to the Administrative Law Judge's Recommended Order in a document entitled, 'Petitioner's Exceptions to Proposed Recommended Order for DOAH # 99-4040 and FCHR # 98-0365 issued April 13, 2000.' Exceptions 1 through 3 seem to criticize the Administrative Law Judge for statements made in the Recommended Order, rather than excepting to findings of fact or conclusions of law that affect the outcome of the case. In short, they do not appear to be exceptions. Consequently, we reject exceptions 1, 2, and 3. Exception 4 seems to except to the finding in Recommended Order, 7, that, 'It can be inferred from the evidence that her request for demotion was due to a legislatively-mandated reorganization in 1997 that eliminated or transferred a number of positions.' Specifically, Petitioner excepts, 'This statement was not made by Respondent at Final Hearing.' See, Pleading, Exception 4. While this may not have been specifically stated at the hearing, it would seem that such an inference would be permissible from the testimony of Respondent's representative, Kristine Davenport, at transcript page 66 and transcript page 81. We reject exception 4. Exceptions 5, 6, 7, 8, and 9, suggest that certain career service rules were not followed in the hiring process for the positions in question. We note that the Administrative Law Judge considered Petitioner's allegations that certain of Respondent's hiring rules had not been followed, yet declined to draw an inference of discrimination therefrom, and did not make a factual finding that the rules alleged to be violated had actually been violated. See, Recommended Order, 21. We reject exceptions 5, 6, 7, 8, and 9. Exception 10 appears to except to the Administrative Law Judge's finding that the age of the successful applicant for position 60287 was unknown, given the information provided in Respondent's response to Petitioner's request for discovery, indicating that this individual was 40. See, Pleading, Exception 10. Even if the record before the Administrative Law Judge did contain evidence as to the age of this individual, (and the documentary evidence admitted in Petitioner's Exhibit 2, Respondent's response to Petitioner's request for discovery, does suggest that the age of the successful candidate for this position is 40) the Administrative Law Judge's finding that this information was not of record would have no impact on the outcome of the case, given the Administrative Law Judge's finding that Respondent articulated legitimate, nondiscriminatory reasons for not hiring Petitioner and that those reasons were not a pretext for discrimination. Petitioner also seems to except to the Administrative Law Judge's finding that the successful applicant for position 012123 was the same age as Petitioner, given Respondent's indication in its response to Petitioner's request for discovery that the age of this individual was unknown. See, Pleading, Exception 10. However, at page 94 of the transcript, Respondent's representative, Carolyn C. Dudley, testifies that the successful applicant for this position was born in 1943, the same year as Petitioner. See, Recommended Order, 1, for a finding that Petitioner was born in 1943. We reject exception 10. "],
+        "heading_5": "Dismissal",
+        "heading_5_text":["The Petition for Relief and Complaint of Discrimination are DISMISSED with prejudice. The parties have the right to seek judicial review of this Order. The Commission and the appropriate District Court of Appeal must receive notice of appeal within 30 days of the date this Order is filed with the Clerk of the Commission. Explanation of the right to appeal is found in Section 120.68, Florida Statutes, and in the Florida Rules of Appellate Procedure 9.110."],
+        "heading_6": "",
+        "heading_6_text":[""],
+        "heading_7": "",
+        "heading_7_text":[""],
+        "heading_8": "",
+        "heading_8_text":[""],
+        "heading_9": "",
+        "heading_9_text":[""],
+        "heading_10": "",
+        "heading_10_text":[""],
+        "heading_11": "",
+        "heading_11_text":[""],
+        "heading_12": "",
+        "heading_12_text":[""]
+    }
+}

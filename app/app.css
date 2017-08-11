@@ -8,6 +8,24 @@ font: 300 20px/1.6 Lato, sans-serif;
 
 }
 
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+.accordion.active, .accordion:hover {
+    background-color: #ddd;
+}
+
+
 @media (max-width: 650px) {
 	.finalorder {
 	  padding: .1em 1.5em;
