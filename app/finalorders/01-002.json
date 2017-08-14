@@ -1,0 +1,58 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 01-002",
+        "doah": "Case No. 00-2317"
+    },
+    "judge": {
+        "name":"William R. Pfeiffer"
+    },
+    "casetype": {
+        "type": "DISCRIMINATORY HOUSING PRACTICE"
+    },
+
+    "description": "Petitioner Robert S. McCance filed a housing discrimination complaint pursuant to the Fair Housing Act, Sections 760.20 - 760.37, Florida Statutes (1997), alleging that Respondent Helen Sowinski committed a discriminatory housing practice on the basis of retaliation.",
+    "name": {
+        "petitioner": "Robert S. McCance",
+        "respondent": "Helen Sowinski"
+      },
+    "attorneys": {
+        "atty_petitioner": "Robert S. McCance, Pro Se",
+        "atty_respondent": "Fred A. Morrison, Esq."
+      },
+
+    "result": {
+        "description": "Remanded  to the Administrative Law Judge for further proceedings."
+
+    },
+    "title": {
+        "description": "ORDER REMANDING PETITION FOR RELIEF FROM A DISCRIMINATORY HOUSING PRACTICE "
+
+    },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": ["Petitioner Robert S. McCance filed a housing discrimination complaint pursuant to the Fair Housing Act, Sections 760.20 - 760.37, Florida Statutes (1997), alleging that Respondent Helen Sowinski committed a discriminatory housing practice on the basis of retaliation. The allegations set forth in the complaint were investigated, and, on April 19, 2000, the Commission issued its determination finding that there was no reasonable cause to believe that a discriminatory housing practice occurred. Petitioner filed a Petition for Relief from a Discriminatory Housing Practice and the case was transmitted to the Division of Administrative Hearings for the conduct of a formal proceeding. Upon consideration of Respondent’s Motion to Dismiss, filed June 12, 2000, Administrative Law Judge William R. Pfeiffer issued an Order Closing File, dated August 2, 2000. The Commission panel designated below considered the record of this matter and determined the action to be taken on the Order Closing File and Petition for Relief."],
+        "heading_2": "Conclusions of Law",
+        "heading_2_text": ["The matter was before the Administrative Law Judge on Respondent’s 'Motion to Dismiss,' filed June 12, 2000. See, Order Closing File. Respondent’s 'Motion to Dismiss' requests that the Petition for Relief be dismissed for three reasons: (1) the Petition fails to specify how Respondent violated the Fair Housing Act; (2) the Petition does not set forth the disputed issues of material fact or the ultimate facts which entitle the Petitioner to relief, as required; and (3) that the alleged 'retaliation' complained about for filing a complaint took place before the complaint was filed. See, Pleading. In closing the file of the Division of Administrative Hearings, the Administrative Law Judge’s Order Closing File simply indicates that the matter was before the Administrative Law Judge on Respondent’s 'Motion to Dismiss' and that the Administrative Law Judge was 'fully advised,' without specifically indicating the reason for closing the file. See, Order Closing File. We will assume that the Administrative Law Judge agreed with all three arguments contained in Respondent’s 'Motion to Dismiss.' The Fair Housing Act states, 'It is unlawful to coerce, intimidate, threaten, or interfere with any person in the exercise of, or on account of her or his having exercised, or on account of her or his having aided or encouraged any other person in the exercise of any right granted under ss. 760.20-760.37. This section may be enforced by appropriate administrative or civil action.' Section 760.37, Florida Statutes (1999). Petitioner’s Petition for Relief alleges that he was being retaliated against for having assisted another with their discrimination case against Respondent and having told Respondent about the assistance. See, Petition for Relief from a Discriminatory Housing Practice. We conclude that the Administrative Law Judge committed an error of law in agreeing with the three arguments put forward by Respondent in its 'Motion to Dismiss,' in that, with regard to argument (1) set out, above, the Petition does specify, how Respondent allegedly violated the Fair Housing Act, namely retaliation for having assisted another with a discrimination complaint; with regard to argument (2) set out, above, facts entitling Petitioner to relief, if proved, have been set out in the Petition; and with regard to argument (3) set out, above, the act for which the retaliation was alleged is not the filing of Petitioner’s complaint, but rather Petitioner’s earlier assistance to another regarding a discrimination complaint against Respondent. Finally, we find: (1) that the Administrative Law Judge’s conclusions of law we are correcting are within the substantive jurisdiction of the Florida Commission on Human Relations, namely the interpretation of what constitutes allegations of unlawful discrimination under the Fair Housing Act; (2) the reason the corrections are being made is that the conclusions of law as stated by the Administrative Law Judge run contrary to the statutory provisions of the Fair Housing Act regarding conduct that amounts to unlawful discrimination; and (3) that in making this correction the conclusions of law we are substituting are as or more reasonable than the conclusions which have been rejected. See, Section 120.57(1)(l), Florida Statutes (1999)."],
+        "heading_3": "Exceptions",
+        "heading_3_text":["Neither party filed exceptions to the Administrative Law Judge’s Recommended Order."],
+        "heading_4": "Remand",
+        "heading_4_text":["The Petition for Relief and Housing Discrimination Complaint are hereby REMANDED to the Administrative Law Judge for further proceedings consistent with this Order. "],
+        "heading_5": "",
+        "heading_5_text":[""],
+        "heading_6": "",
+        "heading_6_text":[""],
+        "heading_7": "",
+        "heading_7_text":[""],
+        "heading_8": "",
+        "heading_8_text":[""],
+        "heading_9": "",
+        "heading_9_text":[""],
+        "heading_10": "",
+        "heading_10_text":[""],
+        "heading_11": "",
+        "heading_11_text":[""],
+        "heading_12": "",
+        "heading_12_text":[""]
+    }
+}

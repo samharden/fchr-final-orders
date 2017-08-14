@@ -188,6 +188,24 @@
         },
         "name": "Rosalind Besson, Petitioner, v. School Board of Wakulla County, Respondent",
         "snippet": "Petitioner Rosalind Besson filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1997), alleging that Respondent School Board of Wakulla County committed an unlawful employment practice on the basis of Petitioner's disability (unspecified, but alleged to be known by Respondent) and on the basis of retaliation when it failed to hire Petitioner for a position for which she had applied."
+    },
+    {
+        "year": 2001,
+        "id": "01-001",
+        "judge": {
+            "name":"Ella Jane P. Davis"
+        },
+        "name": "Tammi M. Garland, Petitioner, v. Department of State, Respondent",
+        "snippet": "Petitioner Tammi M. Garland filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Department of State committed an unlawful employment practice on the basis of Petitioner's race (Black) when it terminated her from her position."
+    },
+    {
+        "year": 2001,
+        "id": "01-002",
+        "judge": {
+            "name":"William R. Pfeiffer"
+        },
+        "name": "Robert S. McCance, Petitioner, v. Helen Sowinski, Respondent",
+        "snippet": "Petitioner Robert S. McCance filed a housing discrimination complaint pursuant to the Fair Housing Act, Sections 760.20 - 760.37, Florida Statutes (1997), alleging that Respondent Helen Sowinski committed a discriminatory housing practice on the basis of retaliation."
     }
 
 ]

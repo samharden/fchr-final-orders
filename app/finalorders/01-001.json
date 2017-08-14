@@ -1,0 +1,58 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 01-001",
+        "doah": "Case No. 00-1797"
+    },
+    "judge": {
+        "name":"Ella Jane P. Davis"
+    },
+    "casetype": {
+        "type": "UNLAWFUL EMPLOYMENT PRACTICE"
+    },
+
+    "description": "Petitioner Tammi M. Garland filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Department of State committed an unlawful employment practice on the basis of Petitioner's race (Black) when it terminated her from her position.",
+    "name": {
+        "petitioner": "TAMMI M. GARLAND",
+        "respondent": "DEPARTMENT OF STATE"
+      },
+    "attorneys": {
+        "atty_petitioner": "Tammi M. Garland, Pro Se",
+        "atty_respondent": "Kerey Carpenter, Esq."
+      },
+
+    "result": {
+        "description": "Dismissed with Prejudice"
+
+    },
+    "title": {
+        "description": "FINAL ORDER DISMISSING PETITION FOR RELIEF FROM AN UNLAWFUL EMPLOYMENT PRACTICE"
+
+    },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": ["Petitioner Tammi M. Garland filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11, Florida Statutes (1995), alleging that Respondent Department of State committed an unlawful employment practice on the basis of Petitioner's race (Black) when it terminated her from her position. The allegations set forth in the complaint were investigated, and, on January 31, 2000, the Executive Director issued his determination finding that there was no reasonable cause to believe that an unlawful employment practice had occurred. Petitioner filed a Petition for Relief from an Unlawful Employment Practice and the case was transmitted to the Division of Administrative Hearings for the conduct of a formal proceeding. Prior to the conduct of a formal proceeding on the merits, Administrative Law Judge Ella Jane P. Davis issued a Summary Recommended Order of dismissal, dated July 24, 2000, indicating that the Petition for Relief, received by the Commission on March 20, 2000, was untimely. The Commission panel designated below considered the record of this matter and determined the action to be taken on the Recommended Order. "],
+        "heading_2": "Findings of Fact",
+        "heading_2_text": ["We find the Administrative Law Judge's findings of fact to be supported by competent substantial evidence. We adopt the Administrative Law Judge's findings of fact."],
+        "heading_3": "Conclusions of Law",
+        "heading_3_text":["We find the Administrative Law Judge's application of the law to the facts to result in a correct disposition of the matter. We adopt the Administrative Law Judge's conclusions of law. "],
+        "heading_4": "Exceptions",
+        "heading_4_text":["Neither party filed exceptions to the Administrative Law Judge's recommended order."],
+        "heading_5": "Dismissal",
+        "heading_5_text":["The Petition for Relief and Complaint of Discrimination are DISMISSED with prejudice. The parties have the right to seek judicial review of this Order. The Commission and the appropriate District Court of Appeal must receive notice of appeal within 30 days of the date this Order is filed with the Clerk of the Commission. Explanation of the right to appeal is found in Section 120.68, Florida Statutes, and in the Florida Rules of Appellate Procedure 9.110. "],
+        "heading_6": "",
+        "heading_6_text":[""],
+        "heading_7": "",
+        "heading_7_text":[""],
+        "heading_8": "",
+        "heading_8_text":[""],
+        "heading_9": "",
+        "heading_9_text":[""],
+        "heading_10": "",
+        "heading_10_text":[""],
+        "heading_11": "",
+        "heading_11_text":[""],
+        "heading_12": "",
+        "heading_12_text":[""]
+    }
+}
