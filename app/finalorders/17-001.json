@@ -1,0 +1,58 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 17-001",
+        "doah": "Case No. 16-4122"
+    },
+    "judge": {
+        "name":"Linzie F. Bogan"
+    },
+    "casetype": {
+        "type": "DISCRIMINATORY HOUSING PRACTICE "
+    },
+
+    "description": "This matter is before the Commission for consideration of the Recommended Order of Dismissal, dated October 11, 2016, issued in the above-styled matter by Administrative Law Judge Linzie F. Bogan. Judge Bogan's order reflects that Petitioner failed to appear at the scheduled administrative hearing in the case.",
+    "name": {
+        "petitioner": "RICK GOFF",
+        "respondent": "WINDJAMMER VILLAGE OF NAPLES, INC."
+      },
+    "attorneys": {
+        "atty_petitioner": "Max Heethius, Esq.",
+        "atty_respondent": "Jason R. Himschoot, Esq."
+      },
+
+    "result": {
+        "description": "Dismissed with Prejudice"
+
+    },
+    "title": {
+        "description": "FINAL ORDER DISMISSING PETITION FOR RELIEF FROM A DISCRIMINATORY HOUSING PRACTICE"
+
+    },
+    "opinion": {
+        "heading_1": "Findings of Fact and Conclusions of Law",
+        "heading_1_text": ["Judge Bogan's order reflects that Petitioner failed to appear at the scheduled administrative hearing in the case. Commission panels have concluded that when a Petitioner fails to appear at the scheduled administrative hearing in their case, they fail to meet their burden o f proof, and the Petition for Relief should be dismissed. See, e.g., Jacome v. Victoria's Secret, LLC, FCHR Order No. 16-030 (June 9, 2016), Wade v. District School Board o f Putnam County. FCHR Order No. 15-008 (February 12, 2015), Demons v. Emerald Grande. LLC. FCHR Order No. 14-033 (September 10, 2014), Bullard v. Lowrv Group Properties. Inc.. et al.. FCHR Order No. 13-011 (February 26, 2013). Goldenberg v. Department o f Corrections, FCHR Order No. 12-051 (September 17, 2012), Dotson v. Department of Financial Services, FCHR Order No. 11-034 (April 13, 2011), Patterson v. Panama City Housing Authority, FCHR Order No. 11-001 (January 13, 2011), Crump v. The Majestic Tower at Bal Harbour, FCHR Order No. 10-072 (September 21, 2010), Bermudez v. Lake County Housing Authority. FCHR Order No. 10-041 (April 27, 2010), Cowden v. Difiglio. et al.. FCHR Order No. 09-115 (December 14, 2009), Scott v. Two Men and a Truck. FCHR Order No. 09-009 (January 27, 2009), Enzor v. Sandco. Inc.. FCHR Order No. 08-048 (July 29, 2008), Rodriguez v. Center Point Health and Rehab. FCHR Order No. 08-001 (January 14, 2008), West v. Sembler Corporation, d/b/a Bay Walk. FCHR Order No. 07-037 (June 15, 2007), Martinez v. KJC Enterprises, d/b/a Plantation Island Resort. FCHR Order No. 07-028 (April 20, 2007), Chanev. et al. v. Robert Buckner & Associates. FCHR Order No. 06-092 (November 13, 2006), and Prek v. Workforce Central Florida, FCHR Order No. 06-079 (September 18, 2006). We adopt the Administrative Law Judge's finding as to the nonappearance o f Petitioner and conclude that Petitioner has failed to carry his burden of proof."],
+        "heading_2": "Exceptions",
+        "heading_2_text": ["Neither of the parties filed exceptions to the Administrative Law Judge's Recommended Order of Dismissal. "],
+        "heading_3": "Dismissal",
+        "heading_3_text":["The Petition for Relief and Complaint of Discrimination are DISMISSED with prejudice. The parties have the right to seek judicial review of this Order. The Commission and the appropriate District Court of Appeal must receive notice of appeal within 30 days o f the date this Order is filed with the Clerk of the Commission. Explanation of the right of appeal is found in Section 120.68, Florida Statutes, and in the Florida Rules of Appellate Procedure 9.110."],
+        "heading_4": "",
+        "heading_4_text":[""],
+        "heading_5": "",
+        "heading_5_text":[""],
+        "heading_6": "",
+        "heading_6_text":[""],
+        "heading_7": "",
+        "heading_7_text":[""],
+        "heading_8": "",
+        "heading_8_text":[""],
+        "heading_9": "",
+        "heading_9_text":[""],
+        "heading_10": "",
+        "heading_10_text":[""],
+        "heading_11": "",
+        "heading_11_text":[""],
+        "heading_12": "",
+        "heading_12_text":[""]
+    }
+}
