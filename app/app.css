@@ -80,7 +80,7 @@ h1 {
   margin-top: 0;
 }
 h3 {
-  padding: 10px 0 0 20px ;
+  padding: 10px 0 0 0 ;
 }
 h4 {
   padding: 10px 0 0 0 ;
@@ -98,6 +98,7 @@ p {
   padding: 10px 0 0 20px ;
   font-size: 1.5em;
   max-width:95%;
+  white-space:pre-wrap;
 }
 /* View: Finalorder list */
 .finalorders {
@@ -154,9 +155,9 @@ p {
 }
 
 .finalorder-thumbs img {
-  height: 100px;
+  height: 200px;
   padding: 1em;
-  width: 100px;
+  width: 200px;
 }
 
 .finalorder-thumbs li {

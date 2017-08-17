@@ -1,0 +1,58 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 17-002",
+        "doah": "Case No. 16-5004"
+    },
+    "judge": {
+        "name":"J. Bruce Culpepper"
+    },
+    "casetype": {
+        "type": "UNLAWFUL EMPLOYMENT PRACTICE"
+    },
+
+    "description": "Petitioner Samuel Black filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11. Florida Statutes (2015), alleging that Respondent Commercial Millworks, Inc., committed unlawful employment practices on the basis of Petitioner's disability by failing to provide Petitioner a reasonable accommodation and on the bases of Petitioner's race (African American), color (darkskinned), age (DOB: 8-26-49) and disability by terminating Petitioner from employment. ",
+    "name": {
+        "petitioner": "SAMUEL BLACK",
+        "respondent": "COMMERCIAL MILLWORKS, INC."
+      },
+    "attorneys": {
+        "atty_petitioner": "SAMUEL BLACK, Pro Se",
+        "atty_respondent": "Carlos J. Burruezo, Esq. "
+      },
+
+    "result": {
+        "description": "Dismissed with prejudice"
+
+    },
+    "title": {
+        "description": "FINAL ORDE R DISMISSING PETITION FOR RELIEF FROM AN UNLAWFUL EMPLOYMENT PRACTICE "
+
+    },
+    "opinion": {
+        "heading_1": "Preliminary Matters",
+        "heading_1_text": ["Petitioner Samuel Black filed a complaint of discrimination pursuant to the Florida Civil Rights Act of 1992, Sections 760.01 - 760.11. Florida Statutes (2015), alleging that Respondent Commercial Millworks, Inc., committed unlawful employment practices on the basis of Petitioner's disability by failing to provide Petitioner a reasonable accommodation and on the bases of Petitioner's race (African American), color (darkskinned), age (DOB: 8-26-49) and disability by terminating Petitioner from employment. The allegations set forth in the complaint were investigated, and, on July 22, 2016, the Executive Director issued a determination finding that there was no reasonable cause to believe that an unlawful employment practice had occurred. Petitioner filed a Petition for Relief from an Unlawful Employment Practice, and the case was transmitted to the Division of Administrative Hearings for the conduct of a formal proceeding. The matter was assigned to Administrative Law Judge J. Bruce Culpepper. Prior to an evidentiary hearing in the case, Judge Culpepper considered Respondent's Amended Motion to Dismiss for Lack of Jurisdiction. In response to Respondent's motion, Judge Culpepper issued an Order Closing File and Relinquishing Jurisdiction, dated October 24, 2016, finding that Respondent had never employed 15 or more employees at any one time since its founding in 1992, and that, accordingly, Respondent did not qualify as an 'employer' subject to the Florida Civil Rights Act of 1992. See, Section 760.02(7), Florida Statutes (2016). The Commission panel designated below considered the record of this matter and determined the action to be taken on the Order Closing File and Relinquishing Jurisdiction. "],
+        "heading_2": "Findings of Fact ",
+        "heading_2_text": ["We find the Administrative Law Judge's findings of fact contained in the Order Closing File and Relinquishing Jurisdiction to be supported by competent substantial evidence. We adopt the Administrative Law Judge's findings of fact. "],
+        "heading_3": "Conclusions of Law ",
+        "heading_3_text":["We find the Administrative Law Judge's application of the law to the facts as set out in the Order Closing File and Relinquishing Jurisdiction, including the conclusion that '.. .Respondent does not qualify as an 'employer' under the Florida Civil Rights Act,' to be correct. We adopt the Administrative Law Judge's conclusions of law. "],
+        "heading_4": "Exceptions",
+        "heading_4_text":["Neither of the parties filed exceptions to the Administrative Law Judge's Order Closing File and Relinquishing Jurisdiction. "],
+        "heading_5": "",
+        "heading_5_text":["The Petition for Relief and Complaint of Discrimination are DISMISSED with prejudice. The parties have the right to seek judicial review of this Order. The Commission and the appropriate District Court of Appeal must receive notice of appeal within 30 days of the date this Order is filed with the Clerk of the Commission. Explanation of the right to appeal is found in Section 120.68, Florida Statutes, and in the Florida Rules of Appellate Procedure 9.110. "],
+        "heading_6": "",
+        "heading_6_text":[""],
+        "heading_7": "",
+        "heading_7_text":[""],
+        "heading_8": "",
+        "heading_8_text":[""],
+        "heading_9": "",
+        "heading_9_text":[""],
+        "heading_10": "",
+        "heading_10_text":[""],
+        "heading_11": "",
+        "heading_11_text":[""],
+        "heading_12": "",
+        "heading_12_text":[""]
+    }
+}
