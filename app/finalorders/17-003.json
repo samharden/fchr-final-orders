@@ -1,0 +1,58 @@
+{
+
+    "case_num": {
+        "fchr": "Order No. 17-003",
+        "doah": "Case No. 15-2543"
+    },
+    "judge": {
+        "name":"Tammy Barton, Clerk"
+    },
+    "casetype": {
+        "type": "Emergency Motion"
+    },
+
+    "description": "This matter is before the Commission for consideration of the 'Amended Petitioner's Emergency Motion to Provide Interpreter, to Extend the Deadline for Filing Exceptions and to Recognize Jamison Jessup as Petitioner's Qualified Representative,' filed with the Commission on or about November 16, 2016.",
+    "name": {
+        "petitioner": "SERGEY P. SHASHELEV",
+        "respondent": "CIRQUE DU SOLEIL"
+      },
+    "attorneys": {
+        "atty_petitioner": "Jamison Jessup, Qualified Representative",
+        "atty_respondent": " Nicole Alexandra Sbert, Esq."
+      },
+
+    "result": {
+        "description": "Granted in Part, Denied in Part"
+
+    },
+    "title": {
+        "description": "ORDER ON 'AMENDED PETITIONER'S EMERGENCY MOTION'"
+
+    },
+    "opinion": {
+        "heading_1": "",
+        "heading_1_text": ["This matter is before the Commission for consideration of the 'Amended Petitioner's Emergency Motion to Provide Interpreter, to Extend the Deadline for Filing Exceptions and to Recognize Jamison Jessup as Petitioner's Qualified Representative,' filed with the Commission on or about November 16, 2016. The motion represents that Respondent has no objection to the motion as long as Respondent is not the entity required to incur the costs of implementing the requests contained in the motion. The motion contains six specific requests, and the Commission's rulings on those requests are as follows:"],
+        "heading_2": "",
+        "heading_2_text": ["A. Petitioner's request for Jamison Jessup to continue as Petitioner's 'qualified representative' before the Commission is GRANTED. Jamison Jessup was 'qualified' as Petitioner's 'qualified representative' by the Division of Administrative Hearings. No further 'qualification' is required in this matter."],
+        "heading_3": "",
+        "heading_3_text":["B. Petitioner's request to be provided an interpreter to interpret pleadings (including but not limited to the Recommended Order and transcripts) from English to American Sign Language is DENIED . "],
+        "heading_4": "",
+        "heading_4_text":["C . Petitioner's request for one deaf interpreter and two American Sign Language Interpreters at the final hearing before the Commission is DENIED . The meetings at which Commission Panels decide cases are telephonic, with the three participating Commissioners calling-in to the meeting from their various locations around the state. Pursuant to Fla. Admin. Code R. 60Y-4.028(3), the Commission currently 'dispenses' with oral argument at the meetings o f Commission Panels that decide cases that are before the Commission. In other words, the parties to the cases are not provided an opportunity to participate in the meeting other than to telephonically observe the Commissioners deliberate / vote on the cases. The Commission will provide accommodation required for Petitioner to observe the meeting telephonically. The notice of the meeting sent to the parties will direct the parties to contact the Clerk of the Commission for such required assistance and provide a time frame for contacting the Clerk o f the Commission. The extent o f these services to be provided will be determined by the Clerk of the Commission upon receiving a request for such services from Petitioner's 'qualified representative' and upon communicating further with Petitioner's 'qualified representative' regarding the nature of that meeting. "],
+        "heading_5": "",
+        "heading_5_text":["D. Petitioner's request for extending the deadline for filing exceptions to the Recommended Order is GRANTED . Exceptions to the Recommended Order are now due 15 days from the date o f this order."],
+        "heading_6": "",
+        "heading_6_text":["E . Petitioner's request to extend deadlines for responding to other subsequentlyfiled pleadings is DENIED , without prejudice, until the need for the extension of such deadlines is determined. "],
+        "heading_7": "",
+        "heading_7_text":["F. Petitioner's request for '[v]ideo recording of the deaf interpreter, two American Sign Language Interpreters and Petitioner at the final hearing to ensure best practice,' is DENIE D - see 'C,' above."],
+        "heading_8": "",
+        "heading_8_text":[""],
+        "heading_9": "",
+        "heading_9_text":[""],
+        "heading_10": "",
+        "heading_10_text":[""],
+        "heading_11": "",
+        "heading_11_text":[""],
+        "heading_12": "",
+        "heading_12_text":[""]
+    }
+}
