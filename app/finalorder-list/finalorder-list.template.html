@@ -1,12 +1,11 @@
 
-<br><br>
-      <div class="card-header">
+<br><br><center>
+  <div class="card" style="max-width:95%">
+    <div class="card-header" role="tab" id="headingOne">
       <i class="fa fa-search"></i>
       <input type="text" style="max-width:65%" class="form-control" placeholder="Search" ng-model="$ctrl.query">
-
-        <!-- Search:
-        <input ng-model="$ctrl.query" /><br class="too-small"><br class="too-small"> -->
-        <h4>Sort by:
+      <br>
+      <h4 class="text-dark">Sort by:
         <select ng-model="$ctrl.orderProp" class="text-dark" style="width:auto">
           <option class="text-dark" value="name">Alphabetical</option>
           <option class="text-dark" value="-year">Newest</option>
@@ -16,8 +15,9 @@
 
 
     </div>
+    </div>
 
-  <center>
+
       <div ng-repeat="finalorder in $ctrl.finalorders | filter:$ctrl.query | orderBy:$ctrl.orderProp">
         <br>
         <div class="card" style="max-width:95%">
@@ -44,7 +44,7 @@
       </div>
 </div>
 
-      
+
 
     </div></center>
   </div>
