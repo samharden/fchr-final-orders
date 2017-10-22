@@ -2,10 +2,21 @@
 <html lang="en" ng-app="finalordercatApp">
   <head>
     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+     rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>FCHR Final Orders</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="app.css" />
+    <!-- <link rel="stylesheet" href="bootstrap.css" /> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
     <link rel="stylesheet" href="app.animations.css" />
     <link rel="icon" src="app/gavel.png" sizes="32x32"/>
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -28,14 +39,321 @@
     <script src="finalorder-detail/finalorder-detail.component.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
 
+    <style>
+
+    /* Links */
+    a,
+    a:focus,
+    a:hover {
+      color: #fff;
+    }
+
+    /* Custom default button */
+    .btn-secondary,
+    .btn-secondary:hover,
+    .btn-secondary:focus {
+      color: #333;
+      text-shadow: none; /* Prevent inheritance from `body` */
+      background-color: #fff;
+      border: .05rem solid #fff;
+    }
+
+
+    /*
+     * Base structure
+     */
+
+    html,
+    body {
+      height: 100%;
+      background-color: #333;
+      color: #fff;
+      /*text-align: center;
+      text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);*/
+      font-family: 'Montserrat';
+            font-size: 16px;
+    }
+
+    /* Extra markup and styles for table-esque vertical and horizontal centering */
+    .site-wrapper {
+      display: table;
+      width: 100%;
+      height: 100%; /* For at least Firefox */
+      min-height: 100%;
+      -webkit-box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+              box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+    }
+    .site-wrapper-inner {
+      display: table-cell;
+      vertical-align: top;
+    }
+    .cover-container {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    /* Padding for spacing */
+    .inner {
+      padding: 2rem;
+    }
+
+
+    /*
+     * Header
+     */
+
+    .masthead {
+      margin-bottom: 2rem;
+    }
+
+    .masthead-brand {
+      margin-bottom: 0;
+    }
+
+    .nav-masthead .nav-link {
+      padding: .25rem 0;
+      font-weight: bold;
+      color: rgba(255,255,255,.5);
+      background-color: transparent;
+      border-bottom: .25rem solid transparent;
+    }
+
+    .nav-masthead .nav-link:hover,
+    .nav-masthead .nav-link:focus {
+      border-bottom-color: rgba(255,255,255,.25);
+    }
+
+    .nav-masthead .nav-link + .nav-link {
+      margin-left: 1rem;
+    }
+
+    .nav-masthead .active {
+      color: #fff;
+      border-bottom-color: #fff;
+    }
+
+    @media (min-width: 48em) {
+      .masthead-brand {
+        float: left;
+      }
+      .nav-masthead {
+        float: right;
+      }
+    }
+
+
+    /*
+     * Cover
+     */
+
+    .cover {
+      padding: 0 1.5rem;
+    }
+    .cover .btn-lg {
+      padding: .75rem 1.25rem;
+      font-weight: bold;
+    }
+
+
+    /*
+     * Footer
+     */
+
+    .mastfoot {
+      color: rgba(255,255,255,.5);
+    }
+
+
+    /*
+     * Affix and center
+     */
+
+    @media (min-width: 40em) {
+      /* Pull out the header and footer */
+      .masthead {
+        position: fixed;
+        top: 0;
+      }
+      .mastfoot {
+        position: fixed;
+        bottom: 0;
+      }
+      /* Start the vertical centering */
+      .site-wrapper-inner {
+        vertical-align: middle;
+      }
+      /* Handle the widths */
+      .masthead,
+      .mastfoot,
+      .cover-container {
+        width: 100%; /* Must be percentage or pixels for horizontal alignment */
+      }
+    }
+
+    @media (min-width: 62em) {
+      .masthead,
+      .mastfoot,
+      .cover-container {
+        width: 42rem;
+      }
+    }
+    .align-right {
+      position:absolute;
+      right:0;
+      top:5;
+      margin-right: 10px;
+      margin-top:3px;
+
+    }
+    input {
+      text-align: center;
+      line-height: 150%;
+      color: #666;
+      background: #f0f0f3;
+      width: 100%;
+    }
+    form {
+      text-align: center;
+      line-height: 150%;
+      color: #666;
+      border-radius: 2px;
+      border-color: #f0f0f3;
+      max-width: 600px;
+
+    }
+    input[type="checkbox"],
+    input[type="radio"] {
+      box-sizing: border-box;
+      padding: 0;
+    }
+    /*input {
+        -webkit-appearance: textfield;
+        background-color: white;
+        -webkit-rtl-ordering: logical;
+        user-select: text;
+        cursor: auto;
+        padding: 1px;
+        border-width: 2px;
+        border-style: inset;
+        border-color: initial;
+        border-image: initial;
+    }*/
+
+    input, textarea {
+        text-rendering: auto;
+        width:50%;
+        height:120%;
+        background-color: #f0f0f3;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 5px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: center;
+        margin: 0em;
+        font: 11px system-ui`;
+    }
+    button, input, textarea {
+        padding: .7em 1.2em;
+        font-size: .85em;
+        border: 10;
+        background: #;
+        border-radius: 3px;
+        transition: all .3s;
+    }
+    .view {
+        min-height: 100%;
+    }
+
+    .view {
+        background: url("https://res.cloudinary.com/hs83t7gdz/image/upload/v1503503137/courtroom_almjlr.jpg")no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+    }
+    .tabcontent {
+        display: none;
+        border-top: none;
+        width: 100%;
+        -webkit-animation: fadeEffect 1s;
+        animation: fadeEffect 1s;
+    }
+
+    @media (min-width: 650px) {
+        .too-big {
+          display:none
+        }
+
+    }
+    </style>
 
   </head>
+
   <body>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color:darkgray">
+    <h3 style="float:left">FCHR Final Orders</h3>
+    <button type="button" class="btn btn-primary align-right" data-toggle="modal" data-target="#exampleModal">
+                  Menu
+                </button></nav>
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-body"><center>
+
+                      <a href="mailto:sam@lancorp.co?Subject=Inquiry%20From%20Website"><button type="button" style="width:200px" class="btn btn-primary">Email us
+                    </button></a><br><br>
+                    <a href="https://github.com/samharden/fchr-final-orders.git"><button type="button" style="width:200px" class="btn btn-primary">Github Repo
+                  </button></a>
+                  <br><br>
+
+                <p>
+
+            <a href="https://fchr-final-orders.herokuapp.com/finalorders/"  target="_blank"><button class="btn btn-primary" type="button" style="width:200px">
+              API
+            </button></a>
+          </p>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+  </div>
+              <!-- </div>
+
+
+
+            </div> -->
+
+
+
+
+    <!-- <a class="btn btn-primary align-right" href="https://github.com/samharden/fchr-final-orders.git">
+      API
+    </a>
+
+
+              <a class="btn btn-primary align-right" href="https://github.com/samharden/fchr-final-orders.git">
+                Github
+              </a> -->
+
+
+
 
     <div class="view-container">
-      <div ng-view class="view-frame" style="background-color:#e6e9ef"></div>
+
+      <div ng-view class="view-frame">
+
+
+      </div>
+
     </div>
-<center>
-  <h4><a href="https://github.com/samharden/fchr-final-orders.git">view on github</a></h4></center>
-  </body>
+
+
+
+<br>  </body>
 </html>

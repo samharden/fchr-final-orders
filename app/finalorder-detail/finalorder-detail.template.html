@@ -20,106 +20,111 @@ function test2() {
 };
 </script>
 
-<div class = "first-page" style="background-color:#e6e9ef">
-   <h3><a href="#!/finalorders"><i class="material-icons">keyboard_backspace</i>Back</a></h3>
+<br><br><center>
+<div class="card" style="max-width:95%">
+<div class="card-header" role="tab" id="headingOne">
+  <h4 style="text-align:center" class="text-dark"> {{$ctrl.finalorder.name.petitioner}}, Petitioner <br>v.<br> {{$ctrl.finalorder.name.respondent}}, Respondent
 
-   <div class="tab">
-     <div class="accordion no-print" style="text-align:center">
-      <h4 class="too-small"> {{$ctrl.finalorder.name.petitioner}}, Petitioner <br>v.<br> {{$ctrl.finalorder.name.respondent}}, Respondent</h4>
-    <h3 class="too-big"> {{$ctrl.finalorder.name.petitioner}}, Petitioner <br>v.<br> {{$ctrl.finalorder.name.respondent}}, Respondent</h3>
-  </div>
-   </div>
+  </h4>
+</div>
 
 
-<h3 style="text-align:left; max-width:85%; overflow:hidden"></h3>
 
+<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+  <div class="card-block text-dark" style="margin-left:3px; margin-right:3px"><center><br>
+    <p style="max-width:80%; text-align:left">{{$ctrl.finalorder.description}}</p>
+    </center>
+    <table style="max-width:80%" class="table table-responsive table-sm table-hover" >
+      <tbody style="max-width:80%">
+      <tr>
+        <td>Judge:</td>
+        <td>{{$ctrl.finalorder.judge.name}}</td>
+      </tr>
+      <tr>
+        <td>Case Type:</td>
+        <td>{{$ctrl.finalorder.casetype.type}}</td>
+      </tr>
+      <tr>
+        <td>Description</td>
+        <td>{{$ctrl.finalorder.result.description}}</td>
+      </tr>
+      <tr>
+        <td>Case Number</td>
+          <td><dt>FCHR:</dt>
+        <dd>{{$ctrl.finalorder.case_num.fchr}}</dd>
+        <dt>DOAH:</dt>
+        <dd>{{$ctrl.finalorder.case_num.doah}}</dd></td>
+      </tr>
+      <tr>
+        <td>Attorneys</td>
+        <td><dt>For Petitioner:</dt>
+        <dd>{{$ctrl.finalorder.attorneys.atty_petitioner}}</dd>
+        <dt>For Respondent:</dt>
+        <dd>{{$ctrl.finalorder.attorneys.atty_respondent}}</dd></td>
+      </tr>
+    </tbody>
+    </table>
 
-<h3><center>Description:</center></h3>
-<p >{{$ctrl.finalorder.description}}</p>
-<center>
-<table style="width:100%; overflow:hidden" class="too-big">
-  <tr>
-    <th id="judge">Judge:</th>
-    <th>Case Type:</th>
-    <th>Result:</th>
-    <th>Case Numbers:</th>
-    <th>Attorneys:</th>
-  </tr>
-  <tr>
-    <td>{{$ctrl.finalorder.judge.name}}</td>
-    <td>{{$ctrl.finalorder.casetype.type}}</td>
-    <td>{{$ctrl.finalorder.result.description}}</td>
-    <td><dt>FCHR:</dt>
-    <dd>{{$ctrl.finalorder.case_num.fchr}}</dd>
-    <dt>DOAH:</dt>
-    <dd>{{$ctrl.finalorder.case_num.doah}}</dd></td>
-    <td><dt>For Petitioner:</dt>
-    <dd>{{$ctrl.finalorder.attorneys.atty_petitioner}}</dd>
-    <dt>For Respondent:</dt>
-    <dd>{{$ctrl.finalorder.attorneys.atty_respondent}}</dd></td>
-  </tr>
-</table>
-</center>
-<h3><center>Opinion:</center></h3>
+    <h3 style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_1}}</h3>
 
-<h3><center>{{$ctrl.finalorder.title.description}}</center></h3>
-<h3><center>{{$ctrl.finalorder.opinion.heading_1}}</center></h3>
-<p>
-{{$ctrl.finalorder.opinion.heading_1_text.join('\n')}}
-</p>
+<p style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_1_text.join('\n')}}</p>
 
-<h3><center>{{$ctrl.finalorder.opinion.heading_2}}</center></h3>
-<p>
+<h3 style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_2}}</h3>
+<p style="max-width:80%; text-align:left">
 {{$ctrl.finalorder.opinion.heading_2_text.join('\n')}}
 </p>
-<h3><center>{{$ctrl.finalorder.opinion.heading_3}}</center></h3>
-<p>
+<h3 style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_3}}</h3>
+<p style="max-width:80%; text-align:left">
 {{$ctrl.finalorder.opinion.heading_3_text.join('\n')}}
 </p>
-<h3><center>{{$ctrl.finalorder.opinion.heading_4}}</center></h3>
-<p>
+<h3 style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_4}}</h3>
+<p style="max-width:80%; text-align:left">
 {{$ctrl.finalorder.opinion.heading_4_text.join('\n')}}
 </p>
 
-<h3><center>{{$ctrl.finalorder.opinion.heading_5}}</center></h3>
-<p>
+<h3 style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_5}}</h3>
+<p style="max-width:80%; text-align:left">
 {{$ctrl.finalorder.opinion.heading_5_text.join('\n')}}
 </p>
 
-<h3><center>{{$ctrl.finalorder.opinion.heading_6}}</center></h3>
-<p>
+<h3 style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_6}}</h3>
+<p style="max-width:80%; text-align:left">
 {{$ctrl.finalorder.opinion.heading_6_text.join('\n')}}
 </p>
 
-<h3><center>{{$ctrl.finalorder.opinion.heading_7}}</center></h3>
-<p>
+<h3 style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_7}}</h3>
+<p style="max-width:80%; text-align:left">
 {{$ctrl.finalorder.opinion.heading_7_text.join('\n')}}
 </p>
 
-<h3><center>{{$ctrl.finalorder.opinion.heading_8}}</center></h3>
-<p>
+<h3 style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_8}}</h3>
+<p style="max-width:80%; text-align:left">
 {{$ctrl.finalorder.opinion.heading_8_text.join('\n')}}
 </p>
 
-<h3><center>{{$ctrl.finalorder.opinion.heading_9}}</center></h3>
-<p>
+<h3 style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_9}}</h3>
+<p style="max-width:80%; text-align:left">
 {{$ctrl.finalorder.opinion.heading_9_text.join('\n')}}
 </p>
 
-<h3><center>{{$ctrl.finalorder.opinion.heading_10}}</center></h3>
+<h3 style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_10}}</h3>
 <p>
 {{$ctrl.finalorder.opinion.heading_10_text.join('\n')}}
 </p>
 
-<h3><center>{{$ctrl.finalorder.opinion.heading_11}}</center></h3>
-<p>
+<h3 style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_11}}</h3>
+<p style="max-width:80%; text-align:left">
 {{$ctrl.finalorder.opinion.heading_11_text.join('\n')}}
 </p>
 
-<h3><center>{{$ctrl.finalorder.opinion.heading_12}}</center></h3>
-<p>
+<h3 style="max-width:80%; text-align:left">{{$ctrl.finalorder.opinion.heading_12}}</h3>
+<p style="max-width:80%; text-align:left">
 {{$ctrl.finalorder.opinion.heading_12_text.join('\n')}}
 </p>
 
-<!-- <button onClick='test2()'>Download as PDF</button> -->
+    <br>
+
+</div>
+</div>
+</div>
 </div>

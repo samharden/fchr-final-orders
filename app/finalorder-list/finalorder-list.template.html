@@ -1,46 +1,53 @@
 
-<!-- <center> -->
-  <h2>Florida Commission on Human Relations<br>Final Orders</h2>
-<!-- </center> -->
-
-<div class="container-fluid">
-
-  <div class="row">
-
-      <!--Sidebar content-->
+<br><br>
+      <div class="card-header">
       <i class="fa fa-search"></i>
       <input type="text" style="max-width:65%" class="form-control" placeholder="Search" ng-model="$ctrl.query">
-      <h4 style="">
+
         <!-- Search:
         <input ng-model="$ctrl.query" /><br class="too-small"><br class="too-small"> -->
-        Sort by:
-        <select ng-model="$ctrl.orderProp">
-          <option value="name">Alphabetical</option>
-          <option value="-year">Newest</option>
+        <h4>Sort by:
+        <select ng-model="$ctrl.orderProp" class="text-dark" style="width:auto">
+          <option class="text-dark" value="name">Alphabetical</option>
+          <option class="text-dark" value="-year">Newest</option>
 
-
+        </h4>
         </select>
 
-      </h4>
+
+    </div>
+
+  <center>
+      <div ng-repeat="finalorder in $ctrl.finalorders | filter:$ctrl.query | orderBy:$ctrl.orderProp">
+        <br>
+        <div class="card" style="max-width:95%">
+        <div class="card-header" role="tab" id="headingOne">
+          <h4 class="mb-0" style="max-width:85%; text-align:left">
+
+            <a class="text-dark" href="#!/finalorders/{{finalorder.id}}">{{finalorder.name}}</a>
+            </a>
+          </h4>
+        </div>
 
 
-    <!-- <div class="col-md-10"> -->
-      <!--Body content-->
 
-      <!-- <ul class="finalorders"> -->
+        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+          <div class="card-block text-dark" style="margin-left:3px; margin-right:3px"><center><br>
+            <p style="max-width:80%; text-align:left">{{finalorder.snippet}}</p>
+            <p style="max-width:80%; text-align:left">Judge: {{finalorder.judge.name}} </p>
+            <p style="max-width:80%; text-align:left">FCHR Case No.: {{finalorder.id}}</p>
+            <p style="max-width:80%; text-align:left">Year: {{finalorder.year}}</p>
+            <br>
 
-        <li ng-repeat="finalorder in $ctrl.finalorders | filter:$ctrl.query | orderBy:$ctrl.orderProp"
-            class="thumbnail finalorder-list-item"style="text-align:justify; max-width:95%; height:auto; max-height:200px; overflow:hidden" >
-          <a href="#!/finalorders/{{finalorder.id}}" class="thumb">
-            <i class="material-icons md-48" style="width:100px">library_books</i><br>See Case<br>{{finalorder.id}}
-          </a>
-          <h4 class ="too-big" style="text-align:left; max-width:85%; overflow:hidden"><a href="#!/finalorders/{{finalorder.id}}">{{finalorder.name}}</a></h4>
-          <h6 class ="too-big" style="text-align:left; overflow:hidden">Judge: {{finalorder.judge.name}} &nbsp &nbsp FCHR Case No.: {{finalorder.id}} &nbsp &nbsp Year: {{finalorder.year}}</h6>
-          <h6 class ="too-small" style="text-align:left; overflow:hidden"><a href="#!/finalorders/{{finalorder.id}}">{{finalorder.name}}</a></h6>
-          <div class="too-big"style="text-align:justify; max-width:85%; overflow:hidden">{{finalorder.snippet}}</div>
-        </li>
-      </ul>
+        </div>
+      </div>
+      </div>
+</div>
+
+      
 
     </div></center>
   </div>
+</div>
+</div>
 </div>
