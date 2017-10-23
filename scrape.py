@@ -60,19 +60,19 @@ for n in range(10, 20):
 
         judge_search = soup(string=re.compile("Administrative Law Judge"))[-1]
         judge_field = judge_search.find_previous('br').get_text()
-        judge_name = judge_field.split("Administrative Law Judge")[0].replace(",","").strip()
+        judge_name = judge_field.split("Administrative Law Judge")[0].replace(",","").strip().strip('\\').replace('\\u2019',"'")
         print "Judge = ", judge_name
 
-        fchr_no_search = soup.find(string=re.compile("FCHR Order No.")).split("/")[0].replace("FCHR Order No.","").strip()
+        fchr_no_search = soup.find(string=re.compile("FCHR Order No.")).split("/")[0].replace("FCHR Order No.","").strip().strip('\\').replace('\\u2019',"'")
         print fchr_no_search
 
-        doah_no_search = soup.find(string=re.compile("DOAH Case No.")).find_previous('br').get_text().split("FCHR Order No.")[0].replace("DOAH Case No.","").strip()
+        doah_no_search = soup.find(string=re.compile("DOAH Case No.")).find_previous('br').get_text().split("FCHR Order No.")[0].replace("DOAH Case No.","").strip().strip('\\').replace('\\u2019',"'")
         print doah_no_search
 
-        title_search = soup.find(string=re.compile("FCHR Case No.")).find_next('strong').get_text().strip()
+        title_search = soup.find(string=re.compile("FCHR Case No.")).find_next('strong').get_text().strip().replace('\\u2019',"'")
         print "Title = ", title_search
 
-        case_desc = soup.find(string=re.compile("Preliminary Matters")).find_next('td').get_text().strip()
+        case_desc = soup.find(string=re.compile("Preliminary Matters")).find_next('td').get_text().strip().replace('\n',"").strip('\\').replace('\\u2019',"'")
         # print "Case Desc = ", case_desc
         sent_tokenize_list = sent_tokenize(case_desc)
         case_desc_text = sent_tokenize_list[0]
@@ -97,26 +97,26 @@ for n in range(10, 20):
         if "Finding of Fact and Conclusions of Law" in case_desc:
             pass
         else:
-            conclusions_law = soup.find(string=re.compile("Conclusions of Law")).find_next('br').get_text().strip().split('Exceptions')[0]
+            conclusions_law = soup.find(string=re.compile("Conclusions of Law")).find_next('br').get_text().strip().split('Exceptions')[0].replace('\n',"").strip('\\').replace('\\u2019',"'")
             print "Conclusions of law = ", conclusions_law
 
         if "Finding of Fact" in case_desc:
-            preliminary_matters = case_desc.split('Finding of Fact')[0]
+            preliminary_matters = case_desc.split('Finding of Fact')[0].replace('\n',"").replace('"',"'").strip('\\').replace('\\u2019',"'")
             print "Prelim Matters = ", preliminary_matters
             # find_fact = case_desc.split('Conclusions of Law')[1]
             # print "Findings of Fact = ", find_fact
         else:
-            preliminary_matters = case_desc.split('Conclusions of Law')[0]
+            preliminary_matters = case_desc.split('Conclusions of Law')[0].replace('\n',"").replace('"',"'").strip('\\').replace('\\u2019',"'")
             print "Prelim Matters = ", preliminary_matters
 
-        conclusions_law = soup.find(string=re.compile("Conclusions of Law")).find_next('br').get_text().strip().split('Exceptions')[0]
+        conclusions_law = soup.find(string=re.compile("Conclusions of Law")).find_next('br').get_text().strip().split('Exceptions')[0].replace('\n',"").replace('"',"'").strip('\\').replace('\\u2019',"'")
         print "Conclusions of law = ", conclusions_law
 
         if result_desc == "Dismissed with Prejudice":
-            exceptions_text = soup.find(string=re.compile("Exceptions")).find_next('br').get_text().strip().split('Dismissal')[0]
+            exceptions_text = soup.find(string=re.compile("Exceptions")).find_next('br').get_text().strip().split('Dismissal')[0].replace('\n',"").replace('"',"'").strip('\\').replace('\\u2019',"'")
             print "Exceptions = ", exceptions_text
         elif result_desc == "Remanded for Further Proceedings":
-            exceptions_text = soup.find(string=re.compile("Exceptions")).find_next('br').get_text().strip().split('Remand')[0]
+            exceptions_text = soup.find(string=re.compile("Exceptions")).find_next('br').get_text().strip().split('Remand')[0].replace('\n',"").replace('"',"'").strip('\\').replace('\\u2019',"'")
             print "Exceptions = ", exceptions_text
 
         # if "Conclusions of Law" in case_desc:
@@ -128,7 +128,7 @@ for n in range(10, 20):
         #     preliminary_matters = case_desc.split('Conclusions of Law')[0]
         #     print "Prelim Matters = ", preliminary_matters
 
-        info_json = json.dumps(
+        info_json = (
             {
 
                 "case_num": {
@@ -162,20 +162,24 @@ for n in range(10, 20):
                 },
                 "opinion": {
                     "heading_1": "Preliminary Matters",
-                    "heading_1_text": preliminary_matters,
+                    "heading_1_text": [preliminary_matters],
                     "heading_2": "Finding of Fact",
-                    "heading_2_text": ["facts"],
+                    "heading_2_text": "hellp",
                     "heading_3": "Conclusions of Law",
-                    "heading_3_text":conclusions_law,
+                    "heading_3_text":[conclusions_law],
                     "heading_4": "Exceptions",
-                    "heading_4_text":exceptions_text,
+                    "heading_4_text":[exceptions_text],
                     "heading_5": heading_x,
                     "heading_5_text":"Hm"
                 }
             }
         )
         # print info_json
-        #
+        os.chdir('/Users/samharden/fchr-final-orders/test')
+
+
+        with open('file'+str(n)+'.json', 'wb') as f:
+            json.dump(info_json, f, sort_keys=True)
 
 
     except Exception as e:
